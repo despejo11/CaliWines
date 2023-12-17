@@ -1,15 +1,14 @@
-.background {
-	background-image: url(../images/headertop.jpg);
-	padding-bottom: 200px;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
 .burger-menu {
 	background-color: rgba(0, 0, 0, 0.422);
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
+	.background {
+		background-image: url(../images/headertop.jpg);
+		padding-bottom: 200px;
+		background-size: cover;
+	}
+
 	.header-section {
 		padding: 0;
 	}
@@ -261,6 +260,12 @@
 	}
 }
 @media (min-width: 426px) and (max-width: 770px) {
+	.background {
+		background-image: url(../images/headertop.jpg);
+		padding-bottom: 200px;
+		background-size: cover;
+	}
+
 	.header-section {
 		padding: 0;
 	}
@@ -512,6 +517,12 @@
 	}
 }
 @media (min-width: 770px) and (max-width: 1025px) {
+	.background {
+		background-image: url(../images/headertop.jpg);
+		padding-bottom: 200px;
+		background-size: cover;
+	}
+
 	.header-section {
 		padding: 0;
 	}
@@ -763,6 +774,13 @@
 	}
 }
 @media (min-width: 1025px) {
+	.background {
+		background-image: url(../images/headertop.jpg);
+		padding-bottom: 200px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
 	.header-section {
 		padding: 0;
 	}
