@@ -18,16 +18,19 @@ function enableScroll() {
 
 var burgerMenu = document.querySelector('.burger-menu')
 var openButton = document.querySelector('.menu-btn')
-var closeButton = document.querySelector('.menubox')
+var menubox = document.querySelector('.menubox')
 
 openButton.addEventListener('click', function () {
 	disableScroll()
 	menubox.style.left = '0'
 })
 
-closeButton.addEventListener('click', function () {
-	enableScroll()
-	menubox.style.left = '-100%'
+document.addEventListener('click', function (event) {
+	if (!burgerMenu.contains(event.target) && !menubox.contains(event.target)) {
+		enableScroll()
+		document.getElementById('menu-toggle').checked = false
+		menubox.style.left = '-100%'
+	}
 })
 
 document.getElementById('menu-toggle').addEventListener('change', function () {

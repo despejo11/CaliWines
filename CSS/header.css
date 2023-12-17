@@ -1,5 +1,5 @@
 .background {
-	background-image: url(/images/headertop.jpg);
+	background-image: url(../images/headertop.jpg);
 	padding-bottom: 800px;
 	background-size: cover;
 	background-attachment: fixed;
@@ -97,13 +97,10 @@
 		font-size: 17px;
 		font-weight: 400;
 		text-decoration: none;
-		transition-duration: 0.25s;
-		transition: 1s;
 	}
 
 	.menu-item:hover {
 		color: var(--light-hover-color);
-		transition: 1s;
 	}
 
 	.menu-item-patterns {
@@ -129,7 +126,6 @@
 		font-style: italic;
 		font-size: 16px;
 		color: var(--brand-color);
-		transition: all 1s;
 	}
 
 	.number-call-item:hover {
@@ -275,13 +271,10 @@
 		font-size: 20px;
 		font-weight: 400;
 		text-decoration: none;
-		transition-duration: 0.25s;
-		transition: 1s;
 	}
 
 	.menu-item:hover {
 		color: var(--light-hover-color);
-		transition: 1s;
 	}
 
 	.call-menu-item {
@@ -307,7 +300,6 @@
 		font-style: italic;
 		font-size: 16px;
 		color: var(--brand-color);
-		transition: all 1s;
 	}
 
 	.number-call-item:hover {
@@ -453,13 +445,10 @@
 		font-size: 25px;
 		font-weight: 400;
 		text-decoration: none;
-		transition-duration: 0.25s;
-		transition: 1s;
 	}
 
 	.menu-item:hover {
 		color: var(--light-hover-color);
-		transition: 1s;
 	}
 
 	.menu-item-patterns {
@@ -485,7 +474,6 @@
 		font-style: italic;
 		font-size: 20px;
 		color: var(--brand-color);
-		transition: all 1s;
 	}
 
 	.number-call-item:hover {
