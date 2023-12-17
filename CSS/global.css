@@ -8,7 +8,7 @@ font-family: 'Smooch', cursive;
 */
 
 .body-global {
-	background-color: var(--background-color);
+	background-color: var(--background-color-alt);
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -29,6 +29,7 @@ img {
 	--brand-color: #c8693a;
 	--brand-hover-color: #984922;
 	--background-color: #241917;
+	--background-color-alt: #291d1a;
 	--background-menu-color: #1f1513;
 	--dark-brand-color: #261e1c;
 	--light-brand-color: #342e2e;

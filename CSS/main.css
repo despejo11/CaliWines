@@ -76,6 +76,130 @@
 		padding-top: 20px;
 		font-size: 18px;
 	}
+
+	.section-wines-adver {
+		margin-top: 100px;
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+		background-image: url(../images/people-glasses.jpg);
+		padding-bottom: 100px;
+		background-size: cover;
+	}
+
+	.wines-adver-text {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wines-adver-subtext {
+		font-size: 60px;
+		color: var(--light-color);
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+	}
+
+	.wines-image-patterns {
+		margin: auto;
+		width: 230px;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+
+	.wines-text-subimage {
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.wine-deals {
+		padding-top: 100px;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wine-deals-product-title {
+		color: var(--brand-color);
+		font-size: 20px;
+		font-weight: 500;
+		font-family: 'Smooch', cursive;
+		padding-bottom: 10px;
+	}
+
+	.wine-deals-product-subtitle {
+		color: var(--light-color);
+		font-size: 40px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-deals-product-image {
+		width: 230px;
+		height: auto;
+		margin: auto;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.wine-deals-product-description {
+		font-weight: 500;
+		color: var(--light-color);
+		font-size: 20px;
+	}
+
+	.wine-deals-product-products {
+		padding-top: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+
+	.wine-product {
+		background-color: var(--background-color);
+		padding-bottom: 30px;
+		margin: auto;
+	}
+
+	.wine-product-image {
+		margin: auto;
+		width: 250px;
+		height: auto;
+	}
+
+	.wine-product-name {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wine-product-price {
+		color: var(--light-hover-color);
+		font-size: 18px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-weight: 600;
+	}
+
+	.wine-product-button-shop {
+		font-size: 14px;
+		font-weight: 600;
+		padding: 15px 20px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--light-color);
+		border: 2px solid var(--brand-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.wine-product-button-shop:hover {
+		background-color: var(--brand-color);
+	}
 }
 @media (min-width: 426px) and (max-width: 770px) {
 	.wine-serv-section {
@@ -158,6 +282,130 @@
 		padding-top: 20px;
 		font-size: 18px;
 	}
+
+	.section-wines-adver {
+		margin-top: 100px;
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+		background-image: url(../images/people-glasses.jpg);
+		padding-bottom: 100px;
+		background-size: cover;
+	}
+
+	.wines-adver-text {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wines-adver-subtext {
+		font-size: 60px;
+		color: var(--light-color);
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+	}
+
+	.wines-image-patterns {
+		margin: auto;
+		width: 230px;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+
+	.wines-text-subimage {
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.wine-deals {
+		padding-top: 100px;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wine-deals-product-title {
+		color: var(--brand-color);
+		font-size: 20px;
+		font-weight: 500;
+		font-family: 'Smooch', cursive;
+		padding-bottom: 10px;
+	}
+
+	.wine-deals-product-subtitle {
+		color: var(--light-color);
+		font-size: 40px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-deals-product-image {
+		width: 230px;
+		height: auto;
+		margin: auto;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.wine-deals-product-description {
+		font-weight: 500;
+		color: var(--light-color);
+		font-size: 20px;
+	}
+
+	.wine-deals-product-products {
+		padding-top: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+
+	.wine-product {
+		background-color: var(--background-color);
+		padding-bottom: 30px;
+		margin: auto;
+	}
+
+	.wine-product-image {
+		margin: auto;
+		width: 250px;
+		height: auto;
+	}
+
+	.wine-product-name {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wine-product-price {
+		color: var(--light-hover-color);
+		font-size: 18px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-weight: 600;
+	}
+
+	.wine-product-button-shop {
+		font-size: 14px;
+		font-weight: 600;
+		padding: 15px 20px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--light-color);
+		border: 2px solid var(--brand-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.wine-product-button-shop:hover {
+		background-color: var(--brand-color);
+	}
 }
 @media (min-width: 770px) and (max-width: 1025px) {
 	.wine-serv-section {
@@ -239,6 +487,130 @@
 		color: var(--light-hover-color);
 		padding-top: 20px;
 		font-size: 18px;
+	}
+
+	.section-wines-adver {
+		margin-top: 100px;
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+		background-image: url(../images/people-glasses.jpg);
+		padding-bottom: 100px;
+		background-size: cover;
+	}
+
+	.wines-adver-text {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wines-adver-subtext {
+		font-size: 60px;
+		color: var(--light-color);
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+	}
+
+	.wines-image-patterns {
+		margin: auto;
+		width: 230px;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+
+	.wines-text-subimage {
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.wine-deals {
+		padding-top: 100px;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wine-deals-product-title {
+		color: var(--brand-color);
+		font-size: 20px;
+		font-weight: 500;
+		font-family: 'Smooch', cursive;
+		padding-bottom: 10px;
+	}
+
+	.wine-deals-product-subtitle {
+		color: var(--light-color);
+		font-size: 40px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-deals-product-image {
+		width: 230px;
+		height: auto;
+		margin: auto;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.wine-deals-product-description {
+		font-weight: 500;
+		color: var(--light-color);
+		font-size: 20px;
+	}
+
+	.wine-deals-product-products {
+		padding-top: 80px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.wine-product {
+		background-color: var(--background-color);
+		padding-bottom: 30px;
+		margin: auto;
+	}
+
+	.wine-product-image {
+		margin: auto;
+		width: 250px;
+		height: auto;
+	}
+
+	.wine-product-name {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wine-product-price {
+		color: var(--light-hover-color);
+		font-size: 18px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-weight: 600;
+	}
+
+	.wine-product-button-shop {
+		font-size: 14px;
+		font-weight: 600;
+		padding: 15px 20px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--light-color);
+		border: 2px solid var(--brand-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.wine-product-button-shop:hover {
+		background-color: var(--brand-color);
 	}
 }
 @media (min-width: 1025px) {
@@ -324,5 +696,130 @@
 		color: var(--light-hover-color);
 		padding-top: 20px;
 		font-size: 18px;
+	}
+
+	.section-wines-adver {
+		margin-top: 150px;
+		padding-top: 100px;
+		padding-left: 35px;
+		padding-right: 35px;
+		text-align: center;
+		background-image: url(../images/people-glasses.jpg);
+		padding-bottom: 100px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.wines-adver-text {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 25px;
+		font-weight: 500;
+	}
+
+	.wines-adver-subtext {
+		font-size: 80px;
+		color: var(--light-color);
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+	}
+
+	.wines-image-patterns {
+		margin: auto;
+		width: 260px;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+
+	.wines-text-subimage {
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 25px;
+	}
+
+	.wine-deals {
+		padding-top: 100px;
+		text-align: center;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	.wine-deals-product-title {
+		color: var(--brand-color);
+		font-size: 25px;
+		font-weight: 500;
+		font-family: 'Smooch', cursive;
+		padding-bottom: 10px;
+	}
+
+	.wine-deals-product-subtitle {
+		color: var(--light-color);
+		font-size: 55px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-deals-product-image {
+		width: 280px;
+		height: auto;
+		margin: auto;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	.wine-deals-product-description {
+		font-weight: 500;
+		color: var(--light-color);
+		font-size: 25px;
+	}
+
+	.wine-deals-product-products {
+		padding-top: 100px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.wine-product {
+		background-color: var(--background-color);
+		padding-bottom: 30px;
+		margin: auto;
+	}
+
+	.wine-product-image {
+		margin: auto;
+		width: 280px;
+		height: auto;
+	}
+
+	.wine-product-name {
+		color: var(--light-color);
+		font-size: 22px;
+		font-weight: 500;
+	}
+
+	.wine-product-price {
+		color: var(--light-hover-color);
+		font-size: 20px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-weight: 600;
+	}
+
+	.wine-product-button-shop {
+		font-size: 17px;
+		font-weight: 600;
+		padding: 15px 20px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--light-color);
+		border: 2px solid var(--brand-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.wine-product-button-shop:hover {
+		background-color: var(--brand-color);
 	}
 }
