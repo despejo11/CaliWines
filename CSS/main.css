@@ -1,8 +1,328 @@
 @media (min-width: 320px) and (max-width: 426px) {
+	.wine-serv-section {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wine-serv-item-top {
+		text-align: center;
+	}
+
+	.wine-serv-title-top {
+		font-size: 20px;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		padding-bottom: 15px;
+	}
+
+	.wine-serv-subtittle {
+		color: var(--light-color);
+		font-size: 40px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-pattern {
+		margin: auto;
+		width: 200px;
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.wine-serv-description-top {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+		padding-bottom: 50px;
+	}
+
+	.wine-serv-image {
+		margin: auto;
+	}
+
+	.wine-serv-item-bottom {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+		padding-top: 50px;
+	}
+
+	.wine-serv-items {
+		padding: 0;
+	}
+
+	.wine-serv-title {
+		position: relative;
+		color: var(--light-color);
+		padding-bottom: 20px;
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 20%;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.wine-serv-description {
+		color: var(--light-hover-color);
+		padding-top: 20px;
+		font-size: 18px;
+	}
 }
 @media (min-width: 426px) and (max-width: 770px) {
+	.wine-serv-section {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wine-serv-item-top {
+		text-align: center;
+	}
+
+	.wine-serv-title-top {
+		font-size: 20px;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		padding-bottom: 15px;
+	}
+
+	.wine-serv-subtittle {
+		color: var(--light-color);
+		font-size: 40px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-pattern {
+		margin: auto;
+		width: 200px;
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.wine-serv-description-top {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+		padding-bottom: 50px;
+	}
+
+	.wine-serv-image {
+		margin: auto;
+		max-width: 500px;
+	}
+
+	.wine-serv-item-bottom {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+		padding-top: 50px;
+	}
+
+	.wine-serv-items {
+		width: 270px;
+		justify-content: center;
+		margin: auto;
+	}
+
+	.wine-serv-title {
+		position: relative;
+		color: var(--light-color);
+		padding-bottom: 20px;
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 20%;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.wine-serv-description {
+		color: var(--light-hover-color);
+		padding-top: 20px;
+		font-size: 18px;
+	}
 }
 @media (min-width: 770px) and (max-width: 1025px) {
+	.wine-serv-section {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wine-serv-item-top {
+		text-align: center;
+	}
+
+	.wine-serv-title-top {
+		font-size: 20px;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		padding-bottom: 15px;
+	}
+
+	.wine-serv-subtittle {
+		color: var(--light-color);
+		font-size: 40px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-pattern {
+		margin: auto;
+		width: 200px;
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.wine-serv-description-top {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+		padding-bottom: 50px;
+	}
+
+	.wine-serv-image {
+		margin: auto;
+		max-width: 500px;
+	}
+
+	.wine-serv-item-bottom {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+		padding-top: 50px;
+	}
+
+	.wine-serv-items {
+		width: 270px;
+		justify-content: center;
+		margin: auto;
+	}
+
+	.wine-serv-title {
+		position: relative;
+		color: var(--light-color);
+		padding-bottom: 20px;
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 20%;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.wine-serv-description {
+		color: var(--light-hover-color);
+		padding-top: 20px;
+		font-size: 18px;
+	}
 }
 @media (min-width: 1025px) {
+	.wine-serv-section {
+		padding-top: 100px;
+		padding-left: 35px;
+		padding-right: 35px;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		gap: 50px;
+	}
+
+	.wine-serv-item-top {
+		text-align: center;
+	}
+
+	.wine-serv-title-top {
+		font-size: 20px;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		padding-bottom: 15px;
+	}
+
+	.wine-serv-subtittle {
+		color: var(--light-color);
+		font-size: 40px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-pattern {
+		margin: auto;
+		width: 200px;
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.wine-serv-description-top {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+		padding-bottom: 50px;
+	}
+
+	.wine-serv-image {
+		margin: auto;
+		max-width: 400px;
+	}
+
+	.wine-serv-item-bottom {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 60px;
+		padding-top: 20px;
+	}
+
+	.wine-serv-items {
+		width: 230px;
+		margin: auto;
+	}
+
+	.wine-serv-title {
+		position: relative;
+		color: var(--light-color);
+		padding-bottom: 20px;
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 20%;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.wine-serv-description {
+		color: var(--light-hover-color);
+		padding-top: 20px;
+		font-size: 18px;
+	}
 }
