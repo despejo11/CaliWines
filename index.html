@@ -17,7 +17,7 @@
 
 <body class="body-global">
 
-  <header class="header-section">
+  <header id="headerSection" class="header-section">
     <div class="background-header">
       <div class="burger-menu">
         <img class="header-logo" src="images/logo.svg" alt="image">
@@ -55,13 +55,17 @@
         </p>
       </div>
       <div class="wine-block">
+        <div class="wine-block-container-start">
+          <box-icon class="wine-block-boxicon-start" name='navigation'></box-icon>
+          <p class="wine-block-paragraph-start">Home</p>
+        </div>
         <p class="wine-block-paragraph">Taste our</p>
         <p class="wine-block-subparagraph">Boutique Wines</p>
         <img src="images/patterns.svg" alt="image" class="wine-block-image">
         <p class="wine-block-paragraph-bottom">Grown with love and respect for the California lands.</p>
         <div class="wine-block-buttons">
-          <button class="wine-block-button-shop">Shop now</button>
-          <button class="wine-block-button-learn">Learn more</button>
+          <button onclick="scrollToShopNow()" class="wine-block-button-shop">Shop now</button>
+          <button onclick="scrollToLearnMore()" class="wine-block-button-learn">Learn more</button>
         </div>
       </div>
     </div>
@@ -69,7 +73,7 @@
 
   <section class="wine-serv-section container">
     <div class="wine-serv-item-top">
-      <p class="wine-serv-title-top">100% natural</p>
+      <p id="learnMoreSection" class="wine-serv-title-top">100% natural</p>
       <p class="wine-serv-subtittle">What Makes Our Wines Special</p>
       <img src="images/patterns.svg" alt="image" class="wine-serv-pattern">
       <p class="wine-serv-description-top">We use only 100% natural grapes, no impurities.</p>
@@ -109,13 +113,13 @@
     <img class="wines-image-patterns" src="images/patterns.svg" alt="image">
     <p class="wines-text-subimage">Find your ideal taste and flavor for any occasion.</p>
     <div class="wine-block-buttons">
-      <button class="wine-block-button-shop">Buy wines</button>
-      <button class="wine-block-button-learn">Learn more</button>
+      <button onclick="scrollToShopNow()" class="wine-block-button-shop">Buy wines</button>
+      <a href="about.html"><button class="wine-block-button-learn">Learn more</button></a>
     </div>
   </section>
 
   <section class="wine-deals container">
-    <p class="wine-deals-product-title">Best deals</p>
+    <p id="shopNowSection" class="wine-deals-product-title">Best deals</p>
     <p class="wine-deals-product-subtitle">Wines to Every Table</p>
     <img class="wine-deals-product-image" src="images/patterns.svg" alt="image">
     <p class="wine-deals-product-description">Shop our best-selling wines. Click on the product images to see the
@@ -192,10 +196,11 @@
         <a href="history.html" class="footer-information-link-end">History</a>
         <a href="about.html" class="footer-information-link-end">About Us</a>
         <a href="contact.html" class="footer-information-link-end">Contact Us</a>
-        <a href="#" class="footer-information-link-end">Best Deals</a>
+        <a class="footer-information-link-end" onclick="scrollToShopNow()">Best Deals</a>
       </div>
     </div>
     <div class="footer-copyright-end">
+      <a onclick="scrollToHeader()"><box-icon class="footer-boxicon-up" type='solid' name='chevrons-up'></box-icon></a>
       <img class="footer-copyright-image-end" src="images/logo.svg" alt="image">
       <p class="footer-text-endpage">© Created by <span class="footer-author-end">Chokobok Stepan</span> github <span
           class="footer-github-end">despejo11</span></p>
@@ -203,8 +208,11 @@
     </div>
   </footer>
 
-  <script src="JS/index.js"></script>
-  <script src="JS/validation.js "></script>
+
+  <script src="JS/animations-index.js"></script>
+  <script src="JS/links-index.js"></script>
+  <script src="JS/burger-menu.js"></script>
+  <script src="JS/validation-index.js "></script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 

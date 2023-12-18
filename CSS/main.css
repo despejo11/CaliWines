@@ -871,3 +871,25 @@
 		background-color: var(--brand-color);
 	}
 }
+
+.wine-serv-items {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.wine-serv-items.show {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.wine-product {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.wine-product.show {
+	opacity: 1;
+	transform: translateY(0);
+}

@@ -183,10 +183,30 @@
 	}
 
 	.wine-block {
-		padding-top: 200px;
+		padding-top: 150px;
 		text-align: center;
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+
+	.wine-block-container-start {
+		padding-bottom: 50px;
+	}
+
+	.wine-block-boxicon-start {
+		width: 40px;
+		height: 40px;
+		padding: 7px;
+		border-radius: 100%;
+		background-color: var(--light-color);
+	}
+
+	.wine-block-paragraph-start {
+		color: var(--light-color);
+		font-size: 25px;
+		font-weight: 600;
+		padding-top: 5px;
+		font-family: 'Crimson Pro', serif;
 	}
 
 	.wine-block-paragraph {
@@ -446,6 +466,26 @@
 		padding-right: 15px;
 	}
 
+	.wine-block-container-start {
+		padding-bottom: 50px;
+	}
+
+	.wine-block-boxicon-start {
+		width: 40px;
+		height: 40px;
+		padding: 7px;
+		border-radius: 100%;
+		background-color: var(--light-color);
+	}
+
+	.wine-block-paragraph-start {
+		color: var(--light-color);
+		font-size: 25px;
+		font-weight: 600;
+		padding-top: 5px;
+		font-family: 'Crimson Pro', serif;
+	}
+
 	.wine-block-paragraph {
 		color: var(--brand-color);
 		font-weight: 500;
@@ -703,6 +743,26 @@
 		padding-right: 15px;
 	}
 
+	.wine-block-container-start {
+		padding-bottom: 50px;
+	}
+
+	.wine-block-boxicon-start {
+		width: 40px;
+		height: 40px;
+		padding: 7px;
+		border-radius: 100%;
+		background-color: var(--light-color);
+	}
+
+	.wine-block-paragraph-start {
+		color: var(--light-color);
+		font-size: 25px;
+		font-weight: 600;
+		padding-top: 5px;
+		font-family: 'Crimson Pro', serif;
+	}
+
 	.wine-block-paragraph {
 		color: var(--brand-color);
 		font-weight: 500;
@@ -900,6 +960,26 @@
 		text-align: center;
 		padding-left: 35px;
 		padding-right: 35px;
+	}
+
+	.wine-block-container-start {
+		padding-bottom: 50px;
+	}
+
+	.wine-block-boxicon-start {
+		width: 40px;
+		height: 40px;
+		padding: 7px;
+		border-radius: 100%;
+		background-color: var(--light-color);
+	}
+
+	.wine-block-paragraph-start {
+		color: var(--light-color);
+		font-size: 25px;
+		font-weight: 600;
+		padding-top: 5px;
+		font-family: 'Crimson Pro', serif;
 	}
 
 	.wine-block-paragraph {

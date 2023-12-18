@@ -17,12 +17,59 @@
 
 <body class="body-global">
 
+  <header class="header-section">
+    <div class="background-header">
+      <div class="burger-menu">
+        <img class="header-logo" src="images/logo.svg" alt="image">
+        <input class="input-header" id="menu-toggle" type="checkbox" />
+        <label class="menu-btn" for="menu-toggle">
+          <span></span>
+        </label>
+
+        <ul class="menubox">
+          <img class="menu-item-logo" src="images/logo.svg" alt="image">
+          <li><a class="menu-item" href="index.html">Home</a></li>
+          <li><a class="menu-item" href="about.html">About Us</a></li>
+          <li><a class="menu-item" href="contact.html">Contact Us</a></li>
+          <img class="menu-item-patterns" src="images/patterns.svg" alt="image">
+          <p class="call-menu-item"><span class="style-call-item">Call us:</span><a href="tel:+1 (234) 567 89 00"
+              id="reload-menu-phone" class="number-call-item"> +1 (234) 567 89 00</a></p>
+          <div class="icon-container-item">
+            <a href="#"><box-icon name='facebook-square' type='logo' color='#984922'></box-icon></a>
+            <a href="#"><box-icon name='linkedin-square' type='logo' color='#984922'></box-icon></a>
+            <a href="#"><box-icon name='unity' type='logo' color='#984922'></box-icon></a>
+            <a href="#"><box-icon name='microsoft' type='logo' color='#984922'></box-icon></a>
+          </div>
+        </ul>
+      </div>
+
+      <div class="menu-nav-display">
+        <img class="header-logo-media" src="images/logo.svg" alt="image">
+        <ul class="menubox-media">
+          <li><a class="menu-item-media" href="index.html">Home</a></li>
+          <li><a class="menu-item-media" href="about.html">About Us</a></li>
+          <li><a class="menu-item-media" href="contact.html">Contact Us</a></li>
+        </ul>
+        <p class="call-menu-item-media"><span class="style-call-item-media">Call us:</span><a
+            href="tel:+1 (234) 567 89 00" id="reload-menu-phone" class="number-call-item-media"> +1 (234) 567 89 00</a>
+        </p>
+      </div>
+      <div class="wine-block">
+        <div class="wine-block-container-start">
+          <box-icon class="wine-block-boxicon-start" name='navigation'></box-icon>
+          <p class="wine-block-paragraph-start">Home > History</p>
+        </div>
+        <p class="wine-block-paragraph">Taste our</p>
+        <p class="wine-block-subparagraph">Boutique Wines</p>
+        <img src="images/patterns.svg" alt="image" class="wine-block-image">
+        <p class="wine-block-paragraph-bottom">Grown with love and respect for the California lands.</p>
+      </div>
+    </div>
+  </header>
 
 
 
-
-  <script src="JS/index.js"></script>
-  <script src="JS/validation.js "></script>
+  <script src="JS/burger-menu.js"></script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 
