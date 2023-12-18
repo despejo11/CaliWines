@@ -175,6 +175,18 @@
 		color: var(--light-color);
 		font-size: 20px;
 		font-weight: 500;
+		position: relative;
+		padding-bottom: 15px;
+	}
+
+	.wine-product-name::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		border-bottom: 2px solid var(--medium-color);
 	}
 
 	.wine-product-price {
@@ -381,6 +393,18 @@
 		color: var(--light-color);
 		font-size: 20px;
 		font-weight: 500;
+		position: relative;
+		padding-bottom: 15px;
+	}
+
+	.wine-product-name::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		border-bottom: 2px solid var(--medium-color);
 	}
 
 	.wine-product-price {
@@ -587,6 +611,18 @@
 		color: var(--light-color);
 		font-size: 20px;
 		font-weight: 500;
+		position: relative;
+		padding-bottom: 15px;
+	}
+
+	.wine-product-name::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		border-bottom: 2px solid var(--medium-color);
 	}
 
 	.wine-product-price {
@@ -797,6 +833,18 @@
 		color: var(--light-color);
 		font-size: 22px;
 		font-weight: 500;
+		position: relative;
+		padding-bottom: 15px;
+	}
+
+	.wine-product-name::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		border-bottom: 2px solid var(--medium-color);
 	}
 
 	.wine-product-price {

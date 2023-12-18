@@ -11,14 +11,14 @@
   <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#241917">
   <meta name="msapplication-TileColor" content="#241917">
   <meta name="theme-color" content="#241917">
-  <title>CaliWines</title>
+  <title>CaliWines | Home Page</title>
   <link rel="stylesheet" href="CSS/index.css">
 </head>
 
 <body class="body-global">
 
   <header class="header-section">
-    <div class="background">
+    <div class="background-header">
       <div class="burger-menu">
         <img class="header-logo" src="images/logo.svg" alt="image">
         <input class="input-header" id="menu-toggle" type="checkbox" />
@@ -28,15 +28,12 @@
 
         <ul class="menubox">
           <img class="menu-item-logo" src="images/logo.svg" alt="image">
-          <li><a class="menu-item" href="">About Us</a></li>
-          <li><a class="menu-item" href="">History</a></li>
-          <li><a class="menu-item" href="">Contact Us</a></li>
+          <li><a class="menu-item" href="about.html">About Us</a></li>
+          <li><a class="menu-item" href="history.html">History</a></li>
+          <li><a class="menu-item" href="contact.html">Contact Us</a></li>
           <img class="menu-item-patterns" src="images/patterns.svg" alt="image">
-          <p class="call-menu-item"><span class="style-call-item">Call us:</span><a href="tel:+1
-                (234) 567
-                89 00" id="reload-menu-phone" class="number-call-item"> +1
-              (234) 567
-              89 00</a></p>
+          <p class="call-menu-item"><span class="style-call-item">Call us:</span><a href="tel:+1 (234) 567 89 00"
+              id="reload-menu-phone" class="number-call-item"> +1 (234) 567 89 00</a></p>
           <div class="icon-container-item">
             <a href="#"><box-icon name='facebook-square' type='logo' color='#984922'></box-icon></a>
             <a href="#"><box-icon name='linkedin-square' type='logo' color='#984922'></box-icon></a>
@@ -49,15 +46,13 @@
       <div class="menu-nav-display">
         <img class="header-logo-media" src="images/logo.svg" alt="image">
         <ul class="menubox-media">
-          <li><a class="menu-item-media" href="">About Us</a></li>
-          <li><a class="menu-item-media" href="">History</a></li>
-          <li><a class="menu-item-media" href="">Contact Us</a></li>
+          <li><a class="menu-item-media" href="about.html">About Us</a></li>
+          <li><a class="menu-item-media" href="history.html">History</a></li>
+          <li><a class="menu-item-media" href="contact.html">Contact Us</a></li>
         </ul>
-        <p class="call-menu-item-media"><span class="style-call-item-media">Call us:</span><a href="tel:+1
-                (234) 567
-                89 00" id="reload-menu-phone" class="number-call-item-media"> +1
-            (234) 567
-            89 00</a></p>
+        <p class="call-menu-item-media"><span class="style-call-item-media">Call us:</span><a
+            href="tel:+1 (234) 567 89 00" id="reload-menu-phone" class="number-call-item-media"> +1 (234) 567 89 00</a>
+        </p>
       </div>
       <div class="wine-block">
         <p class="wine-block-paragraph">Taste our</p>
@@ -154,11 +149,62 @@
     </div>
   </section>
 
-
-
-
+  <footer class="footer-end">
+    <div class="footer-join-end">
+      <div>
+        <p class="footer-join-title-end">Join</p>
+        <p class="footer-join-subtitle-end">Join Our Newsletter Now</p>
+        <p class="footer-description-title-end">Learn more about wines and our special offers with our weekly digests.
+        </p>
+      </div>
+      <div>
+        <form id="emailForm" class="footer-join-form-end" onsubmit="return validateEmail()">
+          <input type="email" id="email" name="email" class="footer-join-input-end" required
+            placeholder="Enter your email address here">
+          <br>
+          <input type="submit" value="Submit" class="footer-join-submit-end">
+        </form>
+        <div id="dialogOverlay" class="overlay" style="display: none;">
+          <div id="dialogBox" class="dialog">
+            <div id="dialogContent">
+              <p id="dialogMessage"></p>
+            </div>
+            <button class="btn-dialog" onclick="closeDialog()">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-contact-end">
+      <div class="footer-contact-info-end">
+        <p class="footer-text-end">Contact Us</p>
+        <a href="mailto:caliwines@email.com" class="footer-information-link-end">caliwines@email.com</a>
+        <a href="tel:+12345678900" class="footer-information-link-end">+1 (234) 567 89 00</a>
+        <p class="footer-contact-address-end">1111 White Ln, St Helena,<br> CA 94574</p>
+        <div class="footer-social-icons-end">
+          <a href="#"><box-icon name='facebook-square' type='logo' color='#984922'></box-icon></a>
+          <a href="#"><box-icon name='linkedin-square' type='logo' color='#984922'></box-icon></a>
+          <a href="#"><box-icon name='unity' type='logo' color='#984922'></box-icon></a>
+          <a href="#"><box-icon name='microsoft' type='logo' color='#984922'></box-icon></a>
+        </div>
+      </div>
+      <div class="footer-information-end">
+        <p class="footer-text-end">Information</p>
+        <a href="history.html" class="footer-information-link-end">History</a>
+        <a href="about.html" class="footer-information-link-end">About Us</a>
+        <a href="contact.html" class="footer-information-link-end">Contact Us</a>
+        <a href="#" class="footer-information-link-end">Best Deals</a>
+      </div>
+    </div>
+    <div class="footer-copyright-end">
+      <img class="footer-copyright-image-end" src="images/logo.svg" alt="image">
+      <p class="footer-text-endpage">© Created by <span class="footer-author-end">Chokobok Stepan</span> github <span
+          class="footer-github-end">despejo11</span></p>
+      <p class="footer-subtext-endpage">All rights Reserved</p>
+    </div>
+  </footer>
 
   <script src="JS/index.js"></script>
+  <script src="JS/validation.js "></script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 
