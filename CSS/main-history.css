@@ -1,0 +1,568 @@
+@media (min-width: 320px) and (max-width: 426px) {
+	.awards-historybrand {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.awards-title-historybrand {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.awards-subtitle-historybrand {
+		color: var(--light-color);
+		font-size: 35px;
+		font-family: 'Kalnia', serif;
+		padding-top: 10px;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.awards-image-historybrand {
+		margin: auto;
+		width: 170px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.awards-description-historybrand {
+		text-align: center;
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.award-item-container-historybrand {
+		padding-top: 50px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.award-item-historybrand {
+		width: 300px;
+		margin: auto;
+	}
+
+	.award-item-image-historybrand {
+		width: 300px;
+	}
+
+	.award-item-title-historybrand {
+		padding-top: 20px;
+		color: var(--light-color);
+		font-weight: 500;
+	}
+
+	.award-item-year-historybrand {
+		padding-top: 30px;
+		font-size: 33px;
+		font-weight: 500;
+		font-family: 'Crimson Pro', serif;
+		color: var(--light-color);
+	}
+
+	.award-item-description-historybrand {
+		padding-top: 30px;
+		color: var(--medium-color);
+		font-size: 15px;
+		letter-spacing: 1px;
+		font-weight: 500;
+	}
+
+	.winery-history {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.winery-history-image {
+		margin: auto;
+	}
+
+	.winery-history-container-content {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 50px;
+		justify-content: center;
+		padding-top: 50px;
+	}
+
+	.winery-history-content {
+		text-align: center;
+		width: 300px;
+		margin: auto;
+	}
+
+	.winery-history-year {
+		padding-bottom: 10px;
+		font-style: italic;
+		font-size: 15px;
+		font-weight: 500;
+		color: var(--brand-hover-color);
+	}
+
+	.winery-history-title {
+		padding-bottom: 10px;
+		color: var(--light-color);
+		font-weight: 600;
+		font-size: 23px;
+		font-family: 'Kalnia', serif;
+		position: relative;
+	}
+
+	.winery-history-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 90px;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.winery-history-description {
+		padding-top: 10px;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+@media (min-width: 426px) and (max-width: 770px) {
+	.awards-historybrand {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.awards-title-historybrand {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.awards-subtitle-historybrand {
+		color: var(--light-color);
+		font-size: 35px;
+		font-family: 'Kalnia', serif;
+		padding-top: 10px;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.awards-image-historybrand {
+		margin: auto;
+		width: 170px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.awards-description-historybrand {
+		text-align: center;
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.award-item-container-historybrand {
+		padding-top: 100px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.award-item-historybrand {
+		width: 300px;
+		margin: auto;
+	}
+
+	.award-item-image-historybrand {
+		width: 300px;
+	}
+
+	.award-item-title-historybrand {
+		padding-top: 20px;
+		color: var(--light-color);
+		font-weight: 500;
+	}
+
+	.award-item-year-historybrand {
+		padding-top: 30px;
+		font-size: 33px;
+		font-weight: 500;
+		font-family: 'Crimson Pro', serif;
+		color: var(--light-color);
+	}
+
+	.award-item-description-historybrand {
+		padding-top: 30px;
+		color: var(--medium-color);
+		font-size: 15px;
+		letter-spacing: 1px;
+		font-weight: 500;
+	}
+
+	.winery-history {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.winery-history-image {
+		margin: auto;
+	}
+
+	.winery-history-container-content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 50px;
+		padding-top: 50px;
+	}
+
+	.winery-history-content {
+		text-align: center;
+		width: 300px;
+		margin: auto;
+	}
+
+	.winery-history-year {
+		padding-bottom: 10px;
+		font-style: italic;
+		font-size: 15px;
+		font-weight: 500;
+		color: var(--brand-hover-color);
+	}
+
+	.winery-history-title {
+		padding-bottom: 10px;
+		color: var(--light-color);
+		font-weight: 600;
+		font-size: 23px;
+		font-family: 'Kalnia', serif;
+		position: relative;
+	}
+
+	.winery-history-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 90px;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.winery-history-description {
+		padding-top: 10px;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+	.awards-historybrand {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.awards-title-historybrand {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.awards-subtitle-historybrand {
+		color: var(--light-color);
+		font-size: 35px;
+		font-family: 'Kalnia', serif;
+		padding-top: 10px;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.awards-image-historybrand {
+		margin: auto;
+		width: 170px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.awards-description-historybrand {
+		text-align: center;
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.award-item-container-historybrand {
+		padding-top: 100px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.award-item-historybrand {
+		width: 300px;
+		margin: auto;
+	}
+
+	.award-item-image-historybrand {
+		width: 300px;
+	}
+
+	.award-item-title-historybrand {
+		padding-top: 30px;
+		color: var(--light-color);
+		font-weight: 500;
+	}
+
+	.award-item-year-historybrand {
+		padding-top: 40px;
+		font-size: 35px;
+		font-weight: 500;
+		font-family: 'Crimson Pro', serif;
+		color: var(--light-color);
+	}
+
+	.award-item-description-historybrand {
+		padding-top: 40px;
+		color: var(--medium-color);
+		font-size: 15px;
+		letter-spacing: 1px;
+		font-weight: 500;
+	}
+
+	.winery-history {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.winery-history-image {
+		margin: auto;
+		max-width: 950px;
+	}
+
+	.winery-history-container-content {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 50px;
+		justify-content: center;
+		padding-top: 100px;
+	}
+
+	.winery-history-content {
+		text-align: center;
+		width: 300px;
+		margin: auto;
+	}
+
+	.winery-history-year {
+		padding-bottom: 10px;
+		font-style: italic;
+		font-size: 15px;
+		font-weight: 500;
+		color: var(--brand-hover-color);
+	}
+
+	.winery-history-title {
+		padding-bottom: 10px;
+		color: var(--light-color);
+		font-weight: 600;
+		font-size: 23px;
+		font-family: 'Kalnia', serif;
+		position: relative;
+	}
+
+	.winery-history-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 90px;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.winery-history-description {
+		padding-top: 10px;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+@media (min-width: 1025px) {
+	.awards-historybrand {
+		padding-top: 100px;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	.awards-title-historybrand {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.awards-subtitle-historybrand {
+		color: var(--light-color);
+		font-size: 35px;
+		font-family: 'Kalnia', serif;
+		padding-top: 10px;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.awards-image-historybrand {
+		margin: auto;
+		width: 170px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.awards-description-historybrand {
+		text-align: center;
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.award-item-container-historybrand {
+		padding-top: 100px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.award-item-historybrand {
+		width: 300px;
+		margin: auto;
+	}
+
+	.award-item-image-historybrand {
+		width: 300px;
+	}
+
+	.award-item-title-historybrand {
+		padding-top: 30px;
+		color: var(--light-color);
+		font-weight: 500;
+	}
+
+	.award-item-year-historybrand {
+		padding-top: 40px;
+		font-size: 35px;
+		font-weight: 500;
+		font-family: 'Crimson Pro', serif;
+		color: var(--light-color);
+	}
+
+	.award-item-description-historybrand {
+		padding-top: 40px;
+		color: var(--medium-color);
+		font-size: 15px;
+		letter-spacing: 1px;
+		font-weight: 500;
+	}
+
+	.winery-history {
+		padding-top: 100px;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	.winery-history-image {
+		margin: auto;
+		max-width: 950px;
+	}
+
+	.winery-history-container-content {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 50px;
+		padding-top: 100px;
+		justify-content: center;
+	}
+
+	.winery-history-content {
+		text-align: center;
+		width: 300px;
+		margin: auto;
+	}
+
+	.winery-history-year {
+		padding-bottom: 10px;
+		font-style: italic;
+		font-size: 15px;
+		font-weight: 500;
+		color: var(--brand-hover-color);
+	}
+
+	.winery-history-title {
+		padding-bottom: 10px;
+		color: var(--light-color);
+		font-weight: 600;
+		font-size: 23px;
+		font-family: 'Kalnia', serif;
+		position: relative;
+	}
+
+	.winery-history-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 90px;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.winery-history-description {
+		padding-top: 10px;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+.award-item-historybrand {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.award-item-historybrand.show {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.winery-history-content {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.winery-history-content.show {
+	opacity: 1;
+	transform: translateY(0);
+}
