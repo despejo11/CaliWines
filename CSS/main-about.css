@@ -1,0 +1,1145 @@
+@media (min-width: 320px) and (max-width: 426px) {
+	.wineskinds-section {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 100px;
+	}
+
+	.wineskinds-title {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wineskinds-subtitle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.wineskinds-image {
+		width: 200px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.wineskinds-description {
+		color: var(--light-color);
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	.wineskinds-types {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 50px;
+	}
+
+	.wineskinds-type {
+		padding: 0;
+	}
+
+	.wineskinds-type-title {
+		color: var(--light-color);
+		font-size: 22px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-bottom: 5px;
+	}
+
+	.wineskinds-type-item {
+		color: var(--medium-color);
+		padding-top: 5px;
+		font-size: 17px;
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+
+	.wineskinds-type-item-span {
+		color: var(--brand-color);
+		font-weight: 600;
+		padding-right: 3px;
+	}
+
+	.section-accordion {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 100px;
+	}
+
+	.accordion-tittle {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.accordion-subtittle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.accordion-patterns {
+		width: 200px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.accordion-room {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		color: var(--light-color);
+		background-color: rgba(0, 0, 0, 0);
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+		cursor: pointer;
+		padding: 20px;
+		width: 100%;
+		letter-spacing: 1px;
+		text-align: left;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	.container-accordion-room {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.text-accordion {
+		color: var(--medium-color);
+		font-size: 17px;
+		font-weight: 500;
+		margin-bottom: 40px;
+	}
+
+	.text-accord-select {
+		font-size: 18px;
+		font-weight: 600;
+		font-family: 'Crimson Pro', serif;
+		color: var(--brand-color);
+	}
+
+	.active,
+	.accordion-room:hover {
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.accordion-room:after {
+		content: '\002B';
+		color: var(--light-hover-color);
+		font-weight: 500;
+		font-size: 35px;
+		margin-left: 5px;
+	}
+
+	.active:after {
+		content: '\2212';
+	}
+
+	.panelroom {
+		position: relative;
+		padding: 0 18px;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-out, border 0.3s ease-out;
+		border-bottom: 0.5px solid var(--medium-color);
+		max-width: 380px;
+		margin: auto;
+	}
+
+	.accordiom-image-end {
+		margin: auto;
+	}
+
+	.slider-section {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.slider-tittle {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.slider-subtittle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.slider-patterns {
+		width: 200px;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	.slider-subpatterns {
+		color: var(--light-color);
+		font-size: 17px;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	.slider-container-about {
+		position: relative;
+		margin: auto;
+		overflow: hidden;
+		padding-top: 50px;
+	}
+
+	.slider-about {
+		display: flex;
+		transition: transform 0.5s ease-in-out;
+		padding-bottom: 10px;
+	}
+
+	.slider-slide-about {
+		flex: 0 0 100%;
+		text-align: center;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+	}
+
+	.boxicon-slider {
+		display: flex;
+		width: 30px;
+		height: 30px;
+	}
+
+	.controls-about {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+
+	.controls-btn-about {
+		cursor: pointer;
+		background-color: var(--light-brand-color);
+		transition: all 0.5s;
+		padding: 5px;
+		border-radius: 50%;
+	}
+
+	.controls-btn-about:hover {
+		background-color: var(--background-color);
+	}
+
+	.controls-btn-about--prev-about {
+		margin-right: 10px;
+	}
+
+	.controls-counter-about {
+		display: flex;
+		align-items: center;
+	}
+
+	.counter-circle-about {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: var(--light-brand-color);
+		margin: 0 5px;
+		transition: all 1s;
+	}
+
+	.counter-circle-about.active-count {
+		background-color: var(--background-color);
+	}
+}
+@media (min-width: 426px) and (max-width: 770px) {
+	.wineskinds-section {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 100px;
+	}
+
+	.wineskinds-title {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wineskinds-subtitle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.wineskinds-image {
+		width: 200px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.wineskinds-description {
+		color: var(--light-color);
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	.wineskinds-types {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 100px;
+	}
+
+	.wineskinds-type {
+		padding: 0;
+	}
+
+	.wineskinds-type-title {
+		color: var(--light-color);
+		font-size: 22px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-bottom: 5px;
+	}
+
+	.wineskinds-type-item {
+		color: var(--medium-color);
+		padding-top: 5px;
+		font-size: 17px;
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+
+	.wineskinds-type-item-span {
+		color: var(--brand-color);
+		font-weight: 600;
+		padding-right: 3px;
+	}
+
+	.section-accordion {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 100px;
+	}
+
+	.accordion-tittle {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.accordion-subtittle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.accordion-patterns {
+		width: 200px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.accordion-room {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		color: var(--light-color);
+		background-color: rgba(0, 0, 0, 0);
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+		cursor: pointer;
+		padding: 20px;
+		width: 100%;
+		letter-spacing: 1px;
+		text-align: left;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	.container-accordion-room {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.text-accordion {
+		color: var(--medium-color);
+		font-size: 17px;
+		font-weight: 500;
+		margin-bottom: 40px;
+	}
+
+	.text-accord-select {
+		font-size: 18px;
+		font-weight: 600;
+		font-family: 'Crimson Pro', serif;
+		color: var(--brand-color);
+	}
+
+	.active,
+	.accordion-room:hover {
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.accordion-room:after {
+		content: '\002B';
+		color: var(--light-hover-color);
+		font-weight: 500;
+		font-size: 35px;
+		margin-left: 5px;
+	}
+
+	.active:after {
+		content: '\2212';
+	}
+
+	.panelroom {
+		position: relative;
+		padding: 0 18px;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-out, border 0.3s ease-out;
+		border-bottom: 0.5px solid var(--medium-color);
+		max-width: 710px;
+		margin: auto;
+	}
+
+	.accordiom-image-end {
+		margin: auto;
+		max-width: 300px;
+	}
+
+	.slider-section {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.slider-tittle {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.slider-subtittle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.slider-patterns {
+		width: 200px;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	.slider-subpatterns {
+		color: var(--light-color);
+		font-size: 17px;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	.slider-container-about {
+		position: relative;
+		margin: auto;
+		overflow: hidden;
+		padding-top: 50px;
+		max-width: 700px;
+	}
+
+	.slider-about {
+		display: flex;
+		transition: transform 0.5s ease-in-out;
+		padding-bottom: 10px;
+	}
+
+	.slider-slide-about {
+		flex: 0 0 100%;
+		text-align: center;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+	}
+
+	.boxicon-slider {
+		display: flex;
+		width: 30px;
+		height: 30px;
+	}
+
+	.controls-about {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+
+	.controls-btn-about {
+		cursor: pointer;
+		background-color: var(--light-brand-color);
+		transition: all 0.5s;
+		padding: 5px;
+		border-radius: 50%;
+	}
+
+	.controls-btn-about:hover {
+		background-color: var(--background-color);
+	}
+
+	.controls-btn-about--prev-about {
+		margin-right: 10px;
+	}
+
+	.controls-counter-about {
+		display: flex;
+		align-items: center;
+	}
+
+	.counter-circle-about {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: var(--light-brand-color);
+		margin: 0 5px;
+		transition: all 1s;
+	}
+
+	.counter-circle-about.active-count {
+		background-color: var(--background-color);
+	}
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+	.wineskinds-section {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 100px;
+	}
+
+	.wineskinds-title {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.wineskinds-subtitle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.wineskinds-image {
+		width: 200px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.wineskinds-description {
+		color: var(--light-color);
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+		padding-bottom: 100px;
+	}
+
+	.wineskinds-types {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 150px;
+	}
+
+	.wineskinds-type {
+		padding: 0;
+	}
+
+	.wineskinds-type-title {
+		color: var(--light-color);
+		font-size: 22px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-bottom: 5px;
+	}
+
+	.wineskinds-type-item {
+		color: var(--medium-color);
+		padding-top: 5px;
+		font-size: 17px;
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+
+	.wineskinds-type-item-span {
+		color: var(--brand-color);
+		font-weight: 600;
+		padding-right: 3px;
+	}
+
+	.section-accordion {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 100px;
+	}
+
+	.accordion-tittle {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.accordion-subtittle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.accordion-patterns {
+		width: 200px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.flex-container-accordion {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+	}
+
+	.accordion-room {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		color: var(--light-color);
+		background-color: rgba(0, 0, 0, 0);
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+		cursor: pointer;
+		padding: 20px;
+		width: 100%;
+		letter-spacing: 1px;
+		text-align: left;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	.container-accordion-room {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.text-accordion {
+		color: var(--medium-color);
+		font-size: 17px;
+		font-weight: 500;
+		margin-bottom: 40px;
+	}
+
+	.text-accord-select {
+		font-size: 18px;
+		font-weight: 600;
+		font-family: 'Crimson Pro', serif;
+		color: var(--brand-color);
+	}
+
+	.active,
+	.accordion-room:hover {
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.accordion-room:after {
+		content: '\002B';
+		color: var(--light-hover-color);
+		font-weight: 500;
+		font-size: 35px;
+		margin-left: 5px;
+	}
+
+	.active:after {
+		content: '\2212';
+	}
+
+	.panelroom {
+		position: relative;
+		padding: 0 18px;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-out, border 0.3s ease-out;
+		border-bottom: 0.5px solid var(--medium-color);
+		max-width: 980px;
+		margin: auto;
+	}
+
+	.accordiom-image-end {
+		margin: auto;
+		max-width: 400px;
+	}
+
+	.slider-section {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.slider-tittle {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.slider-subtittle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.slider-patterns {
+		width: 200px;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	.slider-subpatterns {
+		color: var(--light-color);
+		font-size: 17px;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	.slider-container-about {
+		position: relative;
+		margin: auto;
+		overflow: hidden;
+		padding-top: 50px;
+		width: 700px;
+	}
+
+	.slider-about {
+		display: flex;
+		transition: transform 0.5s ease-in-out;
+		padding-bottom: 10px;
+	}
+
+	.slider-slide-about {
+		flex: 0 0 100%;
+		text-align: center;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+	}
+
+	.boxicon-slider {
+		display: flex;
+		width: 30px;
+		height: 30px;
+	}
+
+	.controls-about {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+
+	.controls-btn-about {
+		cursor: pointer;
+		background-color: var(--light-brand-color);
+		transition: all 0.5s;
+		padding: 5px;
+		border-radius: 50%;
+	}
+
+	.controls-btn-about:hover {
+		background-color: var(--background-color);
+	}
+
+	.controls-btn-about--prev-about {
+		margin-right: 10px;
+	}
+
+	.controls-counter-about {
+		display: flex;
+		align-items: center;
+	}
+
+	.counter-circle-about {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: var(--light-brand-color);
+		margin: 0 5px;
+		transition: all 1s;
+	}
+
+	.counter-circle-about.active-count {
+		background-color: var(--background-color);
+	}
+}
+@media (min-width: 1025px) {
+	.wineskinds-section {
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 100px;
+	}
+
+	.wineskinds-title {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 22px;
+		font-weight: 500;
+	}
+
+	.wineskinds-subtitle {
+		color: var(--light-color);
+		font-size: 32px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.wineskinds-image {
+		width: 250px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.wineskinds-description {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+		text-align: center;
+		padding-bottom: 100px;
+	}
+
+	.wineskinds-types {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 170px;
+	}
+
+	.wineskinds-type {
+		padding: 0;
+	}
+
+	.wineskinds-type-title {
+		color: var(--light-color);
+		font-size: 24px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-bottom: 5px;
+	}
+
+	.wineskinds-type-item {
+		color: var(--medium-color);
+		padding-top: 5px;
+		font-size: 19px;
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+
+	.wineskinds-type-item-span {
+		color: var(--brand-color);
+		font-weight: 600;
+		padding-right: 3px;
+	}
+
+	.section-accordion {
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 100px;
+	}
+
+	.accordion-tittle {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 25px;
+		font-weight: 500;
+	}
+
+	.accordion-subtittle {
+		color: var(--light-color);
+		font-size: 35px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.accordion-patterns {
+		width: 250px;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.flex-container-accordion {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+	}
+
+	.accordion-room {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		color: var(--light-color);
+		background-color: rgba(0, 0, 0, 0);
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+		cursor: pointer;
+		padding: 20px;
+		width: 100%;
+		letter-spacing: 1px;
+		text-align: left;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	.container-accordion-room {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.text-accordion {
+		color: var(--medium-color);
+		font-size: 17px;
+		font-weight: 500;
+		margin-bottom: 40px;
+	}
+
+	.text-accord-select {
+		font-size: 18px;
+		font-weight: 600;
+		font-family: 'Crimson Pro', serif;
+		color: var(--brand-color);
+	}
+
+	.active,
+	.accordion-room:hover {
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.accordion-room:after {
+		content: '\002B';
+		color: var(--light-hover-color);
+		font-weight: 500;
+		font-size: 35px;
+		margin-left: 5px;
+	}
+
+	.active:after {
+		content: '\2212';
+	}
+
+	.panelroom {
+		position: relative;
+		padding: 0 18px;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-out, border 0.3s ease-out;
+		border-bottom: 0.5px solid var(--medium-color);
+		max-width: 980px;
+		margin: auto;
+	}
+
+	.accordiom-image-end {
+		margin: auto;
+		width: 400px;
+	}
+
+	.slider-section {
+		padding-top: 100px;
+		padding-left: 35px;
+		padding-right: 35px;
+		display: flex;
+		gap: 100px;
+		align-items: end;
+	}
+
+	.slider-tittle {
+		text-align: center;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 25px;
+		font-weight: 500;
+	}
+
+	.slider-subtittle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.slider-patterns {
+		width: 250px;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	.slider-subpatterns {
+		color: var(--light-color);
+		font-size: 22px;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	.slider-container-about {
+		position: relative;
+		margin: auto;
+		overflow: hidden;
+		padding-top: 50px;
+		width: 600px;
+	}
+
+	.slider-about {
+		display: flex;
+		transition: transform 0.5s ease-in-out;
+		padding-bottom: 10px;
+	}
+
+	.slider-slide-about {
+		flex: 0 0 100%;
+		text-align: center;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+	}
+
+	.boxicon-slider {
+		display: flex;
+		width: 30px;
+		height: 30px;
+	}
+
+	.controls-about {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+
+	.controls-btn-about {
+		cursor: pointer;
+		background-color: var(--light-brand-color);
+		transition: all 0.5s;
+		padding: 5px;
+		border-radius: 50%;
+	}
+
+	.controls-btn-about:hover {
+		background-color: var(--background-color);
+	}
+
+	.controls-btn-about--prev-about {
+		margin-right: 10px;
+	}
+
+	.controls-counter-about {
+		display: flex;
+		align-items: center;
+	}
+
+	.counter-circle-about {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: var(--light-brand-color);
+		margin: 0 5px;
+		transition: all 1s;
+	}
+
+	.counter-circle-about.active-count {
+		background-color: var(--background-color);
+	}
+}
+
+.wineskinds-type {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.wineskinds-type.show {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.accordion-room {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.accordion-room.show {
+	opacity: 1;
+	transform: translateY(0);
+}
