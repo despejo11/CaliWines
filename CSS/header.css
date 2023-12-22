@@ -1055,3 +1055,27 @@
 		color: var(--dark-color);
 	}
 }
+
+@media (min-width: 320px) and (max-width: 426px) {
+	@media screen and (max-height: 400px) {
+		.menubox {
+			overflow-y: auto;
+		}
+	}
+}
+
+@media (min-width: 426px) and (max-width: 770px) {
+	@media screen and (max-height: 525px) {
+		.menubox {
+			overflow-y: auto;
+		}
+	}
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+	@media screen and (max-height: 550px) {
+		.menubox {
+			overflow-y: auto;
+		}
+	}
+}

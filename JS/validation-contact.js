@@ -64,7 +64,7 @@ const validateForm = () => {
 		return false
 	}
 
-	showDialog('Thank you! <br> Hope for a quick response.')
+	showDialog('Thank you! <br> we hope for a quick response.')
 	nameInput.value = ''
 	emailInput.value = ''
 	messageInput.value = ''
