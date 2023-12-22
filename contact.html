@@ -17,11 +17,173 @@
 
 <body class="body-global">
 
+  <header id="headerSection" class="header-section">
+    <div class="background-header">
+      <div class="burger-menu">
+        <img class="header-logo" src="images/logo.svg" alt="image">
+        <input class="input-header" id="menu-toggle" type="checkbox" />
+        <label class="menu-btn" for="menu-toggle">
+          <span></span>
+        </label>
+
+        <ul class="menubox">
+          <img class="menu-item-logo" src="images/logo.svg" alt="image">
+          <li><a class="menu-item" href="index.html">Home</a></li>
+          <li><a class="menu-item" href="about.html">About Us</a></li>
+          <li><a class="menu-item" href="history.html">History</a></li>
+          <img class="menu-item-patterns" src="images/patterns.svg" alt="image">
+          <p class="call-menu-item"><span class="style-call-item">Call us:</span><a href="tel:+1 (234) 567 89 00"
+              id="reload-menu-phone" class="number-call-item"> +1 (234) 567 89 00</a></p>
+          <div class="icon-container-item">
+            <a href="#"><box-icon name='facebook-square' type='logo' color='#984922'></box-icon></a>
+            <a href="#"><box-icon type='logo' name='youtube' color='#984922'></box-icon></a>
+            <a href="#"><box-icon name='instagram' type='logo' color='#984922'></box-icon></box-icon></a>
+            <a href="#"><box-icon name='twitter' type='logo' color='#984922'></box-icon></a>
+          </div>
+        </ul>
+      </div>
+
+      <div class="menu-nav-display">
+        <img class="header-logo-media" src="images/logo.svg" alt="image">
+        <ul class="menubox-media">
+          <li><a class="menu-item-media" href="index.html">Home</a></li>
+          <li><a class="menu-item-media" href="about.html">About Us</a></li>
+          <li><a class="menu-item-media" href="history.html">History</a></li>
+        </ul>
+        <p class="call-menu-item-media"><span class="style-call-item-media">Call us:</span><a
+            href="tel:+1 (234) 567 89 00" id="reload-menu-phone" class="number-call-item-media"> +1 (234) 567 89 00</a>
+        </p>
+      </div>
+      <div class="wine-block">
+        <div class="wine-block-container-start">
+          <box-icon class="wine-block-boxicon-start" name='navigation'></box-icon>
+          <p class="wine-block-paragraph-start">Home > Contact Us</p>
+        </div>
+        <p class="wine-block-paragraph">Taste our</p>
+        <p class="wine-block-subparagraph">Boutique Wines</p>
+        <img src="images/patterns.svg" alt="image" class="wine-block-image">
+        <p class="wine-block-paragraph-bottom">Grown with love and respect for the California lands.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-contact container">
+    <div class="contact-container-top">
+      <p class="contact-top-text">Get your <span class="contact-top-text-span">15%</span> personal discount</p>
+      <p class="contact-top-subtext">Join our club of wine-lovers and be the first to know about the special offers.</p>
+      <button class="contact-top-btn" onclick="scrollToFooter()">Join</button>
+    </div>
+    <div class="contact-container-bottom">
+      <div class="container-form">
+        <form class="form-subscribe-contact" onsubmit="return validateForm()">
+          <div class="input-form">
+            <input required="" autocomplete="off" type="text" name="name" pattern="[A-Za-zА-Яа-яЁёЇїІіЄєҐґ]+"
+              title="Please enter a valid name with only letters">
+            <label class="label-form-contact" for="name">Name</label>
+          </div>
+
+          <div class="input-form">
+            <input required="" autocomplete="off" name="email" type="email" oninput="validateEmailInput(this)">
+            <label class="label-form-contact" for="email">E-mail</label>
+          </div>
+
+          <div class="input-form">
+            <textarea cols="30" rows="1" id="message"></textarea>
+            <label class="label-form-contact" for="message">Message</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-wines-contact">
+    <p class="wines-adver-text">Crafted by our winemakers</p>
+    <p class="wines-adver-subtext">Discover Our Wines</p>
+    <img class="wines-image-patterns" src="images/patterns.svg" alt="image">
+    <p class="wines-text-subimage">Find your ideal taste and flavor for any occasion.</p>
+  </section>
+
+  <section class="section-location container">
+    <div class="animation-top">
+      <p class="location-text">Our store</p>
+      <p class="location-subtext">Where Can You Find Us?</p>
+      <div class="location-container-contacts">
+        <p class="location-contacts-location">1111 White Ln, St Helena, CA 94574</p>
+        <a class="location-contacts-numemail" href="tel:+12345678900">+1 (234) 567 89 00</a>
+        <a class="location-contacts-numemail" href="mailto:caliwines@email.com">caliwines@email.com</a>
+      </div>
+    </div>
+    <div class="animation-bottom">
+      <iframe class="location-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6245.894484762919!2d-122.4482347039094!3d38.48885929384629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808450d3677e08cd%3A0xedd2f5091e2e2b41!2zMTExMSBXaGl0ZSBMbiwgU3QgSGVsZW5hLCBDQSA5NDU3NCwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sua!4v1703233685478!5m2!1suk!2sua"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <footer class="footer-end">
+    <div class="footer-join-end">
+      <div>
+        <p class="footer-join-title-end">Join</p>
+        <p class="footer-join-subtitle-end">Join Our Newsletter Now</p>
+        <p class="footer-description-title-end">Learn more about wines and our special offers with our weekly digests.
+        </p>
+      </div>
+      <div>
+        <form id="emailForm" class="footer-join-form-end" onsubmit="return validateEmail()">
+          <input type="email" id="email" name="email" class="footer-join-input-end" required
+            placeholder="Enter your email address here" oninput="validateEmailInput(this)">
+          <br>
+          <input type="submit" value="Submit" class="footer-join-submit-end">
+        </form>
+        <div id="dialogOverlay" class="overlay" style="display: none;">
+          <div id="dialogBox" class="dialog">
+            <div id="dialogContent">
+              <p id="dialogMessage"></p>
+            </div>
+            <button class="btn-dialog" onclick="closeDialog()">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-contact-end">
+      <div class="footer-contact-info-end">
+        <p class="footer-text-end">Contact Us</p>
+        <a href="mailto:caliwines@email.com" class="footer-information-link-end">caliwines@email.com</a>
+        <a href="tel:+12345678900" class="footer-information-link-end">+1 (234) 567 89 00</a>
+        <p class="footer-contact-address-end">1111 White Ln, St Helena,<br> CA 94574</p>
+        <div class="footer-social-icons-end">
+          <a href="#"><box-icon name='facebook-square' type='logo' color='#984922'></box-icon></a>
+          <a href="#"><box-icon type='logo' name='youtube' color='#984922'></box-icon></a>
+          <a href="#"><box-icon name='instagram' type='logo' color='#984922'></box-icon></box-icon></a>
+          <a href="#"><box-icon name='twitter' type='logo' color='#984922'></box-icon></a>
+        </div>
+      </div>
+      <div class="footer-information-end">
+        <p class="footer-text-end">Information</p>
+        <a href="index.html" class="footer-information-link-end">Home</a>
+        <a href="history.html" class="footer-information-link-end">History</a>
+        <a href="about.html" class="footer-information-link-end">About Us</a>
+      </div>
+    </div>
+    <div class="footer-copyright-end">
+      <a onclick="scrollToHeader()"><box-icon class="footer-boxicon-up" type='solid' name='chevrons-up'></box-icon></a>
+      <img class="footer-copyright-image-end" src="images/logo.svg" alt="image">
+      <p class="footer-text-endpage">© Created by <span class="footer-author-end">Chokobok Stepan</span> github <span
+          class="footer-github-end">despejo11</span></p>
+      <p class="footer-subtext-endpage">All rights Reserved</p>
+    </div>
+  </footer>
+
+
 
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
-  <script src="JS/index.js"></script>
-  <script src="JS/validation.js "></script>
+  <script src="JS/burger-menu.js"></script>
+  <script src="JS/links-contact.js"></script>
+  <script src="JS/animations-contact.js"></script>
+  <script src="JS/links-top-footer.js"></script>
+  <script src="JS/validation-contact.js"></script>
 </body>
 
 </html>
