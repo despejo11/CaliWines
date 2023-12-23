@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json())
 
 const server = app.listen(port, () => {
-	console.log(`The server is running on http://localhost:${port}`)
+	console.log(`Server is running at http://localhost:${port}`)
 })
 
 process.on('SIGINT', () => {
@@ -37,11 +37,7 @@ app.post('/checkout', (req, res) => {
 
 		const orderJSON = JSON.stringify(order)
 
-		console.log('Received order:', order)
-
-		const orderId = new Date().toISOString().replace(/[-:]/g, '')
-
-		fs.writeFileSync(`order_${orderId}.json`, orderJSON)
+		fs.writeFileSync('order.json', orderJSON)
 
 		res.status(200).json({ message: 'Order successfully saved.' })
 	} catch (error) {
