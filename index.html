@@ -129,29 +129,75 @@
       <div class="wine-product">
         <img class="wine-product-image" src="images/bottlegreen.jpg" alt="image">
         <p class="wine-product-name">Cabernet</p>
-        <p class="wine-product-price">17,00USD</p>
-        <button class="wine-product-button-shop">Add to cart</button>
+        <p class="wine-product-price">17.00USD</p>
+        <button class="wine-product-button-shop" onclick="addToCart('Cabernet', '17.00', 'images/bottlegreen.jpg')">Add
+          to
+          cart</button>
       </div>
       <div class="wine-product">
         <img class="wine-product-image" src="images/bottleyellow-white.jpg" alt="image">
         <p class="wine-product-name">Sauvignon Blanc</p>
-        <p class="wine-product-price">12,00USD</p>
-        <button class="wine-product-button-shop">Add to cart</button>
+        <p class="wine-product-price">12.00USD</p>
+        <button class="wine-product-button-shop"
+          onclick="addToCart('Sauvignon Blanc', '12.00', 'images/bottleyellow-white.jpg')">Add to cart</button>
       </div>
       <div class="wine-product">
         <img class="wine-product-image" src="images/bottleyellow-purple.jpg" alt="image">
         <p class="wine-product-name">Syrah</p>
-        <p class="wine-product-price">13,00USD</p>
-        <button class="wine-product-button-shop">Add to cart</button>
+        <p class="wine-product-price">13.00USD</p>
+        <button class="wine-product-button-shop"
+          onclick="addToCart('Syrah', '13.00', 'images/bottleyellow-purple.jpg')">Add to cart</button>
       </div>
       <div class="wine-product">
         <img class="wine-product-image" src="images/bottlebrown-black.jpg" alt="image">
         <p class="wine-product-name">Pinot Grigio</p>
-        <p class="wine-product-price">10,00USD</p>
-        <button class="wine-product-button-shop">Add to cart</button>
+        <p class="wine-product-price">10.00USD</p>
+        <button class="wine-product-button-shop"
+          onclick="addToCart('Pinot Grigio', '10.00', 'images/bottlebrown-black.jpg')">Add to cart</button>
       </div>
     </div>
+    <div class="cart-icon" onclick="toggleCart()">
+      <box-icon class="cart-boxicon" name='cart-alt' color='#241917'></box-icon> <span id="cart-count">0</span>
+    </div>
+
+
+
+    <div class="cart-container" id="cart-container">
+      <div class="close-icon" onclick="toggleCart()">✖</div>
+      <div class="cart-content">
+        <p class="shoppingcart-tittle">Shopping cart</p>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: 0.00USD</p>
+        <form id="order-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" oninput="validateName()" title="Only letters and spaces are allowed"
+            required>
+
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            title="Введите действительный адрес электронной почты" required>
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" oninput="validatePhone()" pattern="[0-9]+"
+            title="Only numeric characters are allowed" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+
+          <button onclick="checkout(event)">Place an Order</button>
+
+        </form>
+      </div>
+    </div>
+
+
+    <div id="modal" class="modal">
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+
   </section>
+
 
   <footer class="footer-end">
     <div class="footer-join-end">
@@ -210,6 +256,7 @@
 
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
+  <script defer src="JS/shopping-cart.js"></script>
   <script src="JS/animations-index.js"></script>
   <script src="JS/links-index.js"></script>
   <script src="JS/burger-menu.js"></script>

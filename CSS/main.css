@@ -212,6 +212,201 @@
 	.wine-product-button-shop:hover {
 		background-color: var(--brand-color);
 	}
+
+	.wine-deals {
+		position: relative;
+	}
+
+	.wine-product {
+		margin-bottom: 20px;
+	}
+
+	.wine-product-image {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.cart-boxicon {
+		width: 25px;
+		height: 25px;
+	}
+
+	.cart-icon {
+		position: fixed;
+		top: 100px;
+		right: 10px;
+		cursor: pointer;
+		background-color: rgb(174, 153, 113);
+		display: flex;
+		align-items: center;
+		gap: 3px;
+		padding: 7px;
+		border-radius: 7px;
+		box-shadow: 1px 1px 6px rgba(26, 25, 25, 0.651);
+	}
+
+	#cart-count {
+		background-color: rgb(88, 17, 17);
+		color: var(--light-hover-color);
+		font-size: 10px;
+		font-family: 'Kalnia', serif;
+		padding: 4px;
+		border-radius: 7px;
+	}
+
+	.cart-container {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(219, 219, 219);
+		padding: 20px;
+		max-height: 80vh;
+		overflow-y: auto;
+		z-index: 9999;
+		background: rgba(219, 219, 219, 0.9);
+	}
+
+	.shoppingcart-tittle {
+		color: var(--background-color);
+		font-size: 20px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-top: 20px;
+	}
+
+	.cart-content {
+		max-height: calc(80vh - 20px);
+		overflow-y: unset;
+		padding: 20px;
+	}
+
+	.close-icon {
+		position: absolute;
+		top: 10px;
+		right: 12px;
+		font-size: 20px;
+		cursor: pointer;
+		color: var(--background-color);
+	}
+
+	#total-price {
+		color: var(--light-brand-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+		font-size: 20px;
+		padding-top: 10px;
+	}
+
+	#order-form {
+		color: var(--background-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 500;
+		font-size: 17px;
+		padding-top: 15px;
+	}
+
+	#order-form input {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+	}
+
+	#order-form input:hover {
+		border: 2px solid rgb(86, 198, 220);
+	}
+
+	#order-form label {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+		padding-top: 15px;
+	}
+
+	#cart-items {
+		color: var(--background-color);
+		list-style: none;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		font-size: 20px;
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+	}
+
+	#cart-items img {
+		width: 180px;
+		height: auto;
+		margin: auto;
+		padding-bottom: 10px;
+	}
+
+	#message {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+	}
+
+	.cart-content button {
+		font-size: 15px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding: 10px 10px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--dark-color);
+		border: 2px solid var(--dark-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+		margin: 0px 7px 30px 7px;
+	}
+
+	.cart-content button:hover {
+		background-color: var(--dark-color);
+		color: var(--light-color);
+	}
+
+	body.cart-opened {
+		overflow: hidden;
+	}
+
+	.modal {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 9999999999;
+	}
+
+	.modal-content {
+		background-color: rgba(196, 196, 196);
+		border-radius: 10px;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Crimson Pro', serif;
+		margin: 0 auto;
+		padding: 20px;
+		color: var(--background-color);
+		width: 80%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
 @media (min-width: 426px) and (max-width: 770px) {
 	.wine-serv-section {
@@ -430,6 +625,202 @@
 	.wine-product-button-shop:hover {
 		background-color: var(--brand-color);
 	}
+
+	.wine-deals {
+		position: relative;
+	}
+
+	.wine-product {
+		margin-bottom: 20px;
+	}
+
+	.wine-product-image {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.cart-boxicon {
+		width: 25px;
+		height: 25px;
+	}
+
+	.cart-icon {
+		position: fixed;
+		top: 100px;
+		right: 10px;
+		cursor: pointer;
+		background-color: rgb(174, 153, 113);
+		display: flex;
+		align-items: center;
+		gap: 3px;
+		padding: 7px;
+		border-radius: 7px;
+		box-shadow: 1px 1px 6px rgba(26, 25, 25, 0.651);
+	}
+
+	#cart-count {
+		background-color: rgb(88, 17, 17);
+		color: var(--light-hover-color);
+		font-size: 10px;
+		font-family: 'Kalnia', serif;
+		padding: 4px;
+		border-radius: 7px;
+	}
+
+	.cart-container {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(219, 219, 219);
+		padding: 20px;
+		max-height: 80vh;
+		overflow-y: auto;
+		z-index: 9999;
+		background: rgba(219, 219, 219, 0.9);
+	}
+
+	.shoppingcart-tittle {
+		color: var(--background-color);
+		font-size: 20px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-top: 20px;
+	}
+
+	.cart-content {
+		max-height: calc(80vh - 20px);
+		overflow-y: unset;
+		padding: 20px;
+	}
+
+	.close-icon {
+		position: absolute;
+		top: 10px;
+		right: 12px;
+		font-size: 20px;
+		cursor: pointer;
+		color: var(--background-color);
+	}
+
+	#total-price {
+		color: var(--light-brand-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+		font-size: 20px;
+		padding-top: 10px;
+	}
+
+	#order-form {
+		color: var(--background-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 500;
+		font-size: 17px;
+		padding-top: 15px;
+	}
+
+	#order-form input {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+		width: 320px;
+	}
+
+	#order-form input:hover {
+		border: 2px solid rgb(86, 198, 220);
+	}
+
+	#order-form label {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+		padding-top: 15px;
+	}
+
+	#cart-items {
+		color: var(--background-color);
+		list-style: none;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		font-size: 20px;
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+	}
+
+	#cart-items img {
+		width: 180px;
+		height: auto;
+		margin: auto;
+		padding-bottom: 10px;
+	}
+
+	#message {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+	}
+
+	.cart-content button {
+		font-size: 15px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding: 10px 10px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--dark-color);
+		border: 2px solid var(--dark-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+		margin: 10px 7px 30px 7px;
+	}
+
+	.cart-content button:hover {
+		background-color: var(--dark-color);
+		color: var(--light-color);
+	}
+
+	body.cart-opened {
+		overflow: hidden;
+	}
+
+	.modal {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 9999999999;
+	}
+
+	.modal-content {
+		background-color: rgba(196, 196, 196);
+		border-radius: 10px;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Crimson Pro', serif;
+		margin: 0 auto;
+		padding: 20px;
+		color: var(--background-color);
+		width: 80%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
 @media (min-width: 770px) and (max-width: 1025px) {
 	.wine-serv-section {
@@ -647,6 +1038,202 @@
 
 	.wine-product-button-shop:hover {
 		background-color: var(--brand-color);
+	}
+
+	.wine-deals {
+		position: relative;
+	}
+
+	.wine-product {
+		margin-bottom: 20px;
+	}
+
+	.wine-product-image {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.cart-boxicon {
+		width: 25px;
+		height: 25px;
+	}
+
+	.cart-icon {
+		position: fixed;
+		top: 100px;
+		right: 10px;
+		cursor: pointer;
+		background-color: rgb(174, 153, 113);
+		display: flex;
+		align-items: center;
+		gap: 3px;
+		padding: 7px;
+		border-radius: 7px;
+		box-shadow: 1px 1px 6px rgba(26, 25, 25, 0.651);
+	}
+
+	#cart-count {
+		background-color: rgb(88, 17, 17);
+		color: var(--light-hover-color);
+		font-size: 10px;
+		font-family: 'Kalnia', serif;
+		padding: 4px;
+		border-radius: 7px;
+	}
+
+	.cart-container {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(219, 219, 219);
+		padding: 20px;
+		max-height: 80vh;
+		overflow-y: auto;
+		z-index: 9999;
+		background: rgba(219, 219, 219, 0.9);
+	}
+
+	.shoppingcart-tittle {
+		color: var(--background-color);
+		font-size: 20px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-top: 20px;
+	}
+
+	.cart-content {
+		max-height: calc(80vh - 20px);
+		overflow-y: unset;
+		padding: 20px;
+	}
+
+	.close-icon {
+		position: absolute;
+		top: 10px;
+		right: 12px;
+		font-size: 20px;
+		cursor: pointer;
+		color: var(--background-color);
+	}
+
+	#total-price {
+		color: var(--light-brand-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+		font-size: 20px;
+		padding-top: 10px;
+	}
+
+	#order-form {
+		color: var(--background-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 500;
+		font-size: 17px;
+		padding-top: 15px;
+	}
+
+	#order-form input {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+		width: 360px;
+	}
+
+	#order-form input:hover {
+		border: 2px solid rgb(86, 198, 220);
+	}
+
+	#order-form label {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+		padding-top: 15px;
+	}
+
+	#cart-items {
+		color: var(--background-color);
+		list-style: none;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		font-size: 20px;
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+	}
+
+	#cart-items img {
+		width: 180px;
+		height: auto;
+		margin: auto;
+		padding-bottom: 10px;
+	}
+
+	#message {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+	}
+
+	.cart-content button {
+		font-size: 15px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding: 10px 10px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--dark-color);
+		border: 2px solid var(--dark-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+		margin: 10px 7px 30px 7px;
+	}
+
+	.cart-content button:hover {
+		background-color: var(--dark-color);
+		color: var(--light-color);
+	}
+
+	body.cart-opened {
+		overflow: hidden;
+	}
+
+	.modal {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 9999999999;
+	}
+
+	.modal-content {
+		background-color: rgba(196, 196, 196);
+		border-radius: 10px;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Crimson Pro', serif;
+		margin: 0 auto;
+		padding: 20px;
+		color: var(--background-color);
+		width: 80%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 	}
 }
 @media (min-width: 1025px) {
@@ -869,6 +1456,202 @@
 
 	.wine-product-button-shop:hover {
 		background-color: var(--brand-color);
+	}
+
+	.wine-deals {
+		position: relative;
+	}
+
+	.wine-product {
+		margin-bottom: 20px;
+	}
+
+	.wine-product-image {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.cart-boxicon {
+		width: 30px;
+		height: 30px;
+	}
+
+	.cart-icon {
+		position: fixed;
+		top: 100px;
+		right: 40px;
+		cursor: pointer;
+		background-color: rgb(174, 153, 113);
+		display: flex;
+		align-items: center;
+		gap: 3px;
+		padding: 7px;
+		border-radius: 7px;
+		box-shadow: 1px 1px 6px rgba(26, 25, 25, 0.651);
+	}
+
+	#cart-count {
+		background-color: rgb(88, 17, 17);
+		color: var(--light-hover-color);
+		font-size: 15px;
+		font-family: 'Kalnia', serif;
+		padding: 6px;
+		border-radius: 7px;
+	}
+
+	.cart-container {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgb(219, 219, 219);
+		padding: 20px;
+		max-height: 80vh;
+		overflow-y: auto;
+		z-index: 9999;
+		background: rgba(219, 219, 219, 0.9);
+	}
+
+	.shoppingcart-tittle {
+		color: var(--background-color);
+		font-size: 30px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-top: 20px;
+	}
+
+	.cart-content {
+		max-height: calc(80vh - 20px);
+		overflow-y: unset;
+		padding: 20px;
+	}
+
+	.close-icon {
+		position: absolute;
+		top: 10px;
+		right: 12px;
+		font-size: 25px;
+		cursor: pointer;
+		color: var(--background-color);
+	}
+
+	#total-price {
+		color: var(--light-brand-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+		font-size: 25px;
+		padding-top: 10px;
+	}
+
+	#order-form {
+		color: var(--background-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 500;
+		font-size: 17px;
+		padding-top: 15px;
+	}
+
+	#order-form input {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+		width: 400px;
+	}
+
+	#order-form input:hover {
+		border: 2px solid rgb(86, 198, 220);
+	}
+
+	#order-form label {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+		padding-top: 15px;
+	}
+
+	#cart-items {
+		color: var(--background-color);
+		list-style: none;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		font-size: 20px;
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+	}
+
+	#cart-items img {
+		width: 180px;
+		height: auto;
+		margin: auto;
+		padding-bottom: 10px;
+	}
+
+	#message {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+	}
+
+	.cart-content button {
+		font-size: 15px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding: 10px 10px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--dark-color);
+		border: 2px solid var(--dark-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+		margin: 10px 7px 30px 7px;
+	}
+
+	.cart-content button:hover {
+		background-color: var(--dark-color);
+		color: var(--light-color);
+	}
+
+	body.cart-opened {
+		overflow: hidden;
+	}
+
+	.modal {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 9999999999;
+	}
+
+	.modal-content {
+		background-color: rgba(196, 196, 196);
+		border-radius: 10px;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Crimson Pro', serif;
+		margin: 0 auto;
+		padding: 20px;
+		color: var(--background-color);
+		width: 80%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 	}
 }
 
