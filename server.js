@@ -8,6 +8,21 @@ const port = 3000
 app.use(cors())
 app.use(express.json())
 
+app.post('/checkout', (req, res) => {
+	try {
+		const order = req.body
+
+		const orderJSON = JSON.stringify(order)
+
+		fs.writeFileSync('order.json', orderJSON)
+
+		res.status(200).json({ message: 'Order successfully saved.' })
+	} catch (error) {
+		console.error('Error saving order:', error)
+		res.status(500).json({ message: 'Error saving order.' })
+	}
+})
+
 const server = app.listen(port, () => {
 	console.log(`Server is running at http://localhost:${port}`)
 })
@@ -29,19 +44,4 @@ process.on('SIGINT', () => {
 			process.exit(1)
 		}
 	})
-})
-
-app.post('/checkout', (req, res) => {
-	try {
-		const order = req.body
-
-		const orderJSON = JSON.stringify(order)
-
-		fs.writeFileSync('order.json', orderJSON)
-
-		res.status(200).json({ message: 'Order successfully saved.' })
-	} catch (error) {
-		console.error('Error saving order:', error)
-		res.status(500).json({ message: 'Error saving order.' })
-	}
 })
