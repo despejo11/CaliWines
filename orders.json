@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Степа",
+    "email": "stepanciocoboc@gmail.com",
+    "phone": "0961902588",
+    "message": "",
+    "items": [
+      {
+        "name": "Cabernet",
+        "price": 17,
+        "image": "images/bottlegreen.jpg",
+        "quantity": 3
+      },
+      {
+        "name": "Sauvignon Blanc",
+        "price": 12,
+        "image": "images/bottleyellow-white.jpg",
+        "quantity": 3
+      },
+      {
+        "name": "Syrah",
+        "price": 13,
+        "image": "images/bottleyellow-purple.jpg",
+        "quantity": 3
+      },
+      {
+        "name": "Pinot Grigio",
+        "price": 10,
+        "image": "images/bottlebrown-black.jpg",
+        "quantity": 4
+      }
+    ],
+    "timestamp": "24.12.2023, 18:27:54"
+  },
+  {
+    "name": "Степа",
+    "email": "stepanciocoboc@gmail.com",
+    "phone": "0961902588",
+    "message": "",
+    "items": [
+      {
+        "name": "Syrah",
+        "price": 13,
+        "image": "images/bottleyellow-purple.jpg",
+        "quantity": 3
+      }
+    ],
+    "timestamp": "24.12.2023, 18:28:31"
+  }
+]
