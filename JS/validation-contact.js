@@ -22,12 +22,12 @@ const validateEmailInput = input => {
 	}
 }
 
-const showDialog = message => {
+const showDialog = messageContact => {
 	const dialogOverlay = document.getElementById('dialogOverlay')
 	const dialogBox = document.getElementById('dialogBox')
 	const dialogMessage = document.getElementById('dialogMessage')
 
-	dialogMessage.innerHTML = message
+	dialogMessage.innerHTML = messageContact
 	dialogOverlay.style.display = 'block'
 
 	setTimeout(() => {

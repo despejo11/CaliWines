@@ -807,6 +807,10 @@
 	}
 }
 
+.submit-contact {
+	cursor: pointer;
+}
+
 .contact-container-top {
 	opacity: 0;
 	transform: translateY(20px);

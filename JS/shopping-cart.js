@@ -24,16 +24,31 @@ function toggleCart() {
 	}
 }
 
-function openModal(message) {
+function openModal(message, error) {
 	const modal = document.getElementById('modal')
 	const modalContent = document.getElementById('modal-content')
 
-	modalContent.innerText = message
-	modal.style.display = 'block'
+	modalContent.innerHTML = ''
 
-	setTimeout(() => {
-		modal.style.display = 'none'
-	}, 2500)
+	if (error) {
+		modalContent.innerHTML = `
+            <p>${message}</p>
+            <p>Error: ${error}</p>
+            <button id="okButton" onclick="closeModal()">OK</button>
+        `
+	} else {
+		modalContent.innerHTML = `
+            <p>${message}</p>
+            <button id="okButton" onclick="closeModal()">OK</button>
+        `
+	}
+
+	modal.style.display = 'block'
+}
+
+function closeModal() {
+	const modal = document.getElementById('modal')
+	modal.style.display = 'none'
 }
 
 function addToCart(productName, productPrice, productImage) {
@@ -195,6 +210,8 @@ function checkout(event) {
 		message: message,
 		items: cartItems,
 	}
+
+	order.timestamp = new Date()
 
 	fetch('http://127.0.0.1:3000/checkout', {
 		method: 'POST',

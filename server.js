@@ -12,14 +12,33 @@ app.post('/checkout', (req, res) => {
 	try {
 		const order = req.body
 
-		const orderJSON = JSON.stringify(order)
+		order.timestamp = new Date().toLocaleString('uk-UA', {
+			timeZone: 'Europe/Kiev',
+		})
 
-		fs.writeFileSync('order.json', orderJSON)
+		let orders = []
 
-		res.status(200).json({ message: 'Order successfully saved.' })
+		if (fs.existsSync('orders.json')) {
+			const ordersData = fs.readFileSync('orders.json', 'utf8')
+
+			if (ordersData.trim() !== '') {
+				orders = JSON.parse(ordersData)
+			}
+		}
+
+		orders.push(order)
+
+		fs.writeFileSync('orders.json', JSON.stringify(orders, null, 2))
+
+		res.status(200).json({
+			message: 'Order successfully saved.',
+		})
 	} catch (error) {
 		console.error('Error saving order:', error)
-		res.status(500).json({ message: 'Error saving order.' })
+
+		res.status(500).json({
+			message: 'Error saving order. Please try again later.',
+		})
 	}
 })
 

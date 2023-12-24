@@ -125,14 +125,14 @@
     <p class="wine-deals-product-description">Shop our best-selling wines. Click on the product images to see the
       details.
     </p>
+
     <div class="wine-deals-product-products">
       <div class="wine-product">
         <img class="wine-product-image" src="images/bottlegreen.jpg" alt="image">
         <p class="wine-product-name">Cabernet</p>
         <p class="wine-product-price">17.00USD</p>
         <button class="wine-product-button-shop" onclick="addToCart('Cabernet', '17.00', 'images/bottlegreen.jpg')">Add
-          to
-          cart</button>
+          to cart</button>
       </div>
       <div class="wine-product">
         <img class="wine-product-image" src="images/bottleyellow-white.jpg" alt="image">
@@ -156,12 +156,12 @@
           onclick="addToCart('Pinot Grigio', '10.00', 'images/bottlebrown-black.jpg')">Add to cart</button>
       </div>
     </div>
+
     <div class="cart-icon" onclick="toggleCart()">
       <box-icon class="cart-boxicon" name='cart-alt' color='#241917'></box-icon> <span id="cart-count">0</span>
     </div>
 
-
-
+    <div class="overlaymodal"></div>
     <div class="cart-container" id="cart-container">
       <div class="close-icon" onclick="toggleCart()">✖</div>
       <div class="cart-content">
@@ -172,58 +172,25 @@
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" oninput="validateName()" title="Only letters and spaces are allowed"
             required>
-
-
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             title="Введите действительный адрес электронной почты" required>
-
           <label for="phone">Phone:</label>
           <input type="tel" id="phone" name="phone" oninput="validatePhone()" pattern="[0-9]+"
             title="Only numeric characters are allowed" required>
-
           <label for="message">Message:</label>
           <textarea id="message" name="message"></textarea>
-
           <button onclick="checkout(event)">Place an Order</button>
-
         </form>
       </div>
     </div>
-
 
     <div id="modal" class="modal">
       <div class="modal-content" id="modal-content"></div>
     </div>
-
   </section>
 
-
   <footer class="footer-end">
-    <div class="footer-join-end">
-      <div>
-        <p class="footer-join-title-end">Join</p>
-        <p class="footer-join-subtitle-end">Join Our Newsletter Now</p>
-        <p class="footer-description-title-end">Learn more about wines and our special offers with our weekly digests.
-        </p>
-      </div>
-      <div>
-        <form id="emailForm" class="footer-join-form-end" onsubmit="return validateEmail()">
-          <input type="email" id="email" name="email" class="footer-join-input-end" required
-            placeholder="Enter your email address here">
-          <br>
-          <input type="submit" value="Submit" class="footer-join-submit-end">
-        </form>
-        <div id="dialogOverlay" class="overlay" style="display: none;">
-          <div id="dialogBox" class="dialog">
-            <div id="dialogContent">
-              <p id="dialogMessage"></p>
-            </div>
-            <button class="btn-dialog" onclick="closeDialog()">OK</button>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="footer-contact-end">
       <div class="footer-contact-info-end">
         <p class="footer-text-end">Contact Us</p>
@@ -261,6 +228,7 @@
   <script src="JS/links-index.js"></script>
   <script src="JS/burger-menu.js"></script>
   <script src="JS/validation-footer.js "></script>
+
 </body>
 
 </html>
