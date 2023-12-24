@@ -37,6 +37,12 @@ img {
 	max-width: 1200px;
 }
 
+@media (max-width: 319.9px) {
+	.body-global {
+		display: none;
+	}
+}
+
 /*
 font-family: 'Crimson Pro', serif;
 font-family: 'Kalnia', serif;
