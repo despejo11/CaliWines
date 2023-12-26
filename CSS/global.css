@@ -37,7 +37,7 @@ img {
 	max-width: 1200px;
 }
 
-@media (max-width: 319.9px) {
+@media (max-width: 219.9px) {
 	.body-global {
 		display: none;
 	}

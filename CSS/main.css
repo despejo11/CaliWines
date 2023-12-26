@@ -1,3 +1,448 @@
+@media (min-width: 220px) and (max-width: 320px) {
+	.wine-serv-section {
+		padding-top: 70px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wine-serv-item-top {
+		text-align: center;
+	}
+
+	.wine-serv-title-top {
+		font-size: 20px;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		padding-bottom: 15px;
+	}
+
+	.wine-serv-subtittle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-pattern {
+		margin: auto;
+		width: 150px;
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.wine-serv-description-top {
+		color: var(--light-color);
+		font-size: 17px;
+		font-weight: 500;
+		padding-bottom: 50px;
+	}
+
+	.wine-serv-image {
+		margin: auto;
+	}
+
+	.wine-serv-item-bottom {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+		padding-top: 50px;
+	}
+
+	.wine-serv-items {
+		padding: 0;
+	}
+
+	.wine-serv-title {
+		position: relative;
+		color: var(--light-color);
+		padding-bottom: 20px;
+		font-size: 22px;
+		font-weight: 500;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-serv-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 20%;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.wine-serv-description {
+		color: var(--light-hover-color);
+		padding-top: 20px;
+		font-size: 18px;
+	}
+
+	.section-wines-adver {
+		margin-top: 100px;
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+		background-image: url(../images/people-glasses.jpg);
+		padding-bottom: 100px;
+		background-size: cover;
+	}
+
+	.wines-adver-text {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		font-size: 18px;
+		font-weight: 500;
+		padding-bottom: 10px;
+	}
+
+	.wines-adver-subtext {
+		font-size: 40px;
+		color: var(--light-color);
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+	}
+
+	.wines-image-patterns {
+		margin: auto;
+		width: 160px;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	.wines-text-subimage {
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.wine-deals {
+		padding-top: 100px;
+		text-align: center;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wine-deals-product-title {
+		color: var(--brand-color);
+		font-size: 20px;
+		font-weight: 500;
+		font-family: 'Smooch', cursive;
+		padding-bottom: 10px;
+	}
+
+	.wine-deals-product-subtitle {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.wine-deals-product-image {
+		width: 160px;
+		height: auto;
+		margin: auto;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.wine-deals-product-description {
+		font-weight: 500;
+		color: var(--light-color);
+		font-size: 17px;
+	}
+
+	.wine-deals-product-products {
+		padding-top: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+
+	.wine-product {
+		background-color: var(--background-color);
+		padding-bottom: 30px;
+		margin: auto;
+	}
+
+	.wine-product-image {
+		margin: auto;
+		width: 250px;
+		height: auto;
+	}
+
+	.wine-product-name {
+		color: var(--light-color);
+		font-size: 20px;
+		font-weight: 500;
+		position: relative;
+		padding-bottom: 15px;
+	}
+
+	.wine-product-name::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		border-bottom: 2px solid var(--medium-color);
+	}
+
+	.wine-product-price {
+		color: var(--light-hover-color);
+		font-size: 18px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-weight: 600;
+	}
+
+	.wine-product-button-shop {
+		font-size: 14px;
+		font-weight: 600;
+		padding: 15px 20px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--light-color);
+		border: 2px solid var(--brand-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.wine-product-button-shop:hover {
+		background-color: var(--brand-color);
+	}
+
+	.wine-deals {
+		position: relative;
+	}
+
+	.wine-product {
+		margin-bottom: 20px;
+	}
+
+	.wine-product-image {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.cart-boxicon {
+		width: 25px;
+		height: 25px;
+	}
+
+	.cart-icon {
+		position: fixed;
+		top: 100px;
+		right: 10px;
+		cursor: pointer;
+		background-color: rgb(174, 153, 113);
+		display: flex;
+		align-items: center;
+		gap: 3px;
+		padding: 7px;
+		border-radius: 7px;
+		box-shadow: 1px 1px 6px rgba(26, 25, 25, 0.651);
+	}
+
+	.cart-icon:hover {
+		background-color: rgb(124, 105, 70);
+	}
+
+	#cart-count {
+		background-color: rgb(88, 17, 17);
+		color: var(--light-color);
+		font-size: 16px;
+		font-family: 'Crimson Pro', serif;
+		padding: 4px;
+		border-radius: 7px;
+	}
+
+	.cart-container {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		max-height: 80vh;
+		max-width: 90vw;
+		overflow-y: auto;
+		z-index: 9999;
+		background-color: rgb(192, 192, 192);
+	}
+
+	.shoppingcart-tittle {
+		color: var(--background-color);
+		font-size: 20px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding-top: 20px;
+	}
+
+	.cart-content {
+		max-height: calc(80vh - 10px);
+		overflow-y: unset;
+		padding: 10px;
+	}
+
+	.close-icon {
+		position: absolute;
+		top: 10px;
+		right: 12px;
+		font-size: 20px;
+		cursor: pointer;
+		color: var(--background-color);
+	}
+
+	#total-price {
+		color: var(--light-brand-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+		font-size: 20px;
+		padding-top: 10px;
+	}
+
+	#order-form {
+		color: var(--background-color);
+		font-family: 'Crimson Pro', serif;
+		font-weight: 500;
+		font-size: 17px;
+		padding-top: 15px;
+	}
+
+	#order-form input {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		width: 150px;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+	}
+
+	#order-form input:hover {
+		border: 2px solid rgb(86, 198, 220);
+	}
+
+	#order-form textarea {
+		width: 150px;
+		margin-bottom: 30px;
+	}
+
+	#order-form textarea:hover {
+		border: 2px solid rgb(86, 198, 220);
+	}
+
+	#order-form label {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+		padding-top: 15px;
+	}
+
+	#cart-items {
+		color: var(--background-color);
+		list-style: none;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		font-size: 17px;
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+	}
+
+	#cart-items img {
+		width: 120px;
+		height: auto;
+		margin: auto;
+		padding-bottom: 10px;
+	}
+
+	#message {
+		background-color: rgb(140, 140, 140);
+		border: 2px solid rgb(158, 158, 158);
+		font-size: 18px;
+		padding: 7px;
+		margin-top: 5px;
+		font-weight: 500;
+		color: white;
+		font-family: 'Crimson Pro', serif;
+	}
+
+	.cart-content button {
+		font-size: 12px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding: 7px 7px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--dark-color);
+		border: 2px solid var(--dark-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+		margin: 0px 7px 30px 7px;
+	}
+
+	.cart-content button:hover {
+		background-color: var(--dark-color);
+		color: var(--light-color);
+	}
+
+	body.cart-opened {
+		overflow: hidden;
+	}
+
+	.modal {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 9999999999;
+	}
+
+	.modal-content {
+		background-color: var(--light-brand-color);
+		border-radius: 10px;
+		font-size: 20px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+		margin: 0 auto;
+		padding: 15px;
+		color: var(--light-hover-color);
+		width: 80%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#okButton {
+		font-size: 15px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		padding: 10px 20px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--dark-color);
+		border: 2px solid var(--brand-hover-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-top: 20px;
+	}
+
+	#okButton:hover {
+		background-color: var(--brand-hover-color);
+		color: var(--light-color);
+	}
+}
+
 @media (min-width: 320px) and (max-width: 426px) {
 	.wine-serv-section {
 		padding-top: 100px;

@@ -1,3 +1,140 @@
+@media (min-width: 220px) and (max-width: 320px) {
+	.awards-historybrand {
+		padding-top: 150px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.awards-title-historybrand {
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.awards-subtitle-historybrand {
+		color: var(--light-color);
+		font-size: 30px;
+		font-family: 'Kalnia', serif;
+		padding-top: 10px;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	.awards-image-historybrand {
+		margin: auto;
+		width: 150px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.awards-description-historybrand {
+		text-align: center;
+		color: var(--light-color);
+		font-weight: 500;
+		font-size: 17px;
+	}
+
+	.award-item-container-historybrand {
+		padding-top: 50px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.award-item-historybrand {
+		width: 200px;
+		margin: auto;
+	}
+
+	.award-item-image-historybrand {
+		width: 200px;
+	}
+
+	.award-item-title-historybrand {
+		padding-top: 20px;
+		color: var(--light-color);
+		font-weight: 500;
+	}
+
+	.award-item-year-historybrand {
+		padding-top: 30px;
+		font-size: 33px;
+		font-weight: 500;
+		font-family: 'Crimson Pro', serif;
+		color: var(--light-color);
+	}
+
+	.award-item-description-historybrand {
+		padding-top: 30px;
+		color: var(--medium-color);
+		font-size: 12px;
+		letter-spacing: 1px;
+		font-weight: 500;
+	}
+
+	.winery-history {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.winery-history-image {
+		margin: auto;
+	}
+
+	.winery-history-container-content {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 50px;
+		justify-content: center;
+		padding-top: 50px;
+	}
+
+	.winery-history-content {
+		text-align: center;
+		width: 200px;
+		margin: auto;
+	}
+
+	.winery-history-year {
+		padding-bottom: 10px;
+		font-style: italic;
+		font-size: 15px;
+		font-weight: 500;
+		color: var(--brand-hover-color);
+	}
+
+	.winery-history-title {
+		padding-bottom: 10px;
+		color: var(--light-color);
+		font-weight: 600;
+		font-size: 23px;
+		font-family: 'Kalnia', serif;
+		position: relative;
+	}
+
+	.winery-history-title::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 90px;
+		border-bottom: 2px solid var(--brand-color);
+	}
+
+	.winery-history-description {
+		padding-top: 10px;
+		color: var(--medium-color);
+		letter-spacing: 1px;
+		font-size: 13px;
+		font-weight: 400;
+	}
+}
+
 @media (min-width: 320px) and (max-width: 426px) {
 	.awards-historybrand {
 		padding-top: 150px;

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "despejo",
+    "email": "emaildespejo@gmail.com",
+    "phone": "1234567890",
+    "message": "hoping for fast shipping!!!",
+    "items": [
+      {
+        "name": "Pinot Grigio",
+        "price": 10,
+        "image": "images/bottlebrown-black.jpg",
+        "quantity": 3
+      },
+      {
+        "name": "Sauvignon Blanc",
+        "price": 12,
+        "image": "images/bottleyellow-white.jpg",
+        "quantity": 2
+      }
+    ],
+    "timestamp": "26.12.2023, 19:22:59"
+  }
+]

@@ -1,3 +1,204 @@
+@media (min-width: 220px) and (max-width: 320px) {
+	.section-wines-contact {
+		margin-top: 100px;
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+		background-image: url(../images/wine-bottle-contact.jpg);
+		padding-bottom: 100px;
+		background-size: cover;
+	}
+
+	.section-contact {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 100px;
+	}
+
+	.contact-container-top {
+		padding-bottom: 50px;
+		text-align: center;
+	}
+
+	.contact-top-text {
+		font-size: 26px;
+		font-family: 'Kalnia', serif;
+		font-weight: 600;
+		color: var(--light-color);
+	}
+
+	.contact-top-text-span {
+		color: var(--brand-color);
+		font-size: 30px;
+	}
+
+	.contact-top-subtext {
+		padding-top: 10px;
+		color: var(--light-hover-color);
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.contact-top-btn {
+		font-size: 20px;
+		font-family: 'Crimson Pro', serif;
+		font-weight: 600;
+		padding: 10px 30px;
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--light-color);
+		border: 2px solid var(--light-color);
+		transition: all 0.5s;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-top: 15px;
+	}
+
+	.contact-top-btn:hover {
+		background-color: var(--light-color);
+		color: var(--dark-color);
+	}
+
+	.contact-container-bottom {
+		padding: 0;
+	}
+
+	.container-form {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+
+	.form-subscribe-contact {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.input-form,
+	textarea {
+		margin: 1em 0 1em 0;
+		width: 170px;
+		position: relative;
+	}
+
+	.input-form input,
+	textarea {
+		font-size: 100%;
+		padding: 0.7em;
+		outline: none;
+		color: #ffffff;
+		border: none;
+		border-bottom: 2px solid var(--brand-color);
+		background: transparent;
+		border-radius: none;
+		width: 100%;
+		resize: none;
+	}
+
+	.input-form label {
+		font-size: 100%;
+		position: absolute;
+		left: 0;
+		color: var(--light-hover-color);
+		padding: 0.7em;
+		margin-left: 0.1em;
+		pointer-events: none;
+		transition: all 0.5s ease;
+		text-transform: uppercase;
+	}
+
+	.input-form :is(input:focus, input:valid) ~ label {
+		transform: translateY(-50%) scale(0.9);
+		margin: 0em;
+		padding: 0.4em;
+		background: transparent;
+	}
+
+	.input-form textarea:focus ~ label,
+	.input-form textarea:valid ~ label {
+		transform: translateY(-50%) scale(0.9);
+		margin: 0em;
+		padding: 0.4em;
+		background: transparent;
+	}
+
+	.inputGroup :is(input:focus, input:valid) {
+		border-color: rgba(255, 255, 255, 0);
+	}
+
+	.form-subscribe-contact button {
+		padding: 15px 30px;
+		text-align: center;
+		font-size: 20px;
+		font-family: 'Crimson Pro', serif;
+		background-color: var(--brand-color);
+		color: var(--light-color);
+		transition: all 0.5s;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.form-subscribe-contact button:hover {
+		color: var(--light-color);
+		background-color: var(--brand-hover-color);
+	}
+
+	.section-location {
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+	}
+
+	.location-text {
+		font-size: 20px;
+		color: var(--brand-color);
+		font-family: 'Smooch', cursive;
+		padding-bottom: 15px;
+	}
+
+	.location-subtext {
+		color: var(--light-color);
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Kalnia', serif;
+	}
+
+	.location-container-contacts {
+		padding-top: 25px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.location-contacts-location {
+		color: var(--light-hover-color);
+		font-weight: 500;
+		font-family: 'Crimson Pro', serif;
+		font-size: 18px;
+	}
+
+	.location-contacts-numemail {
+		color: var(--light-hover-color);
+		font-weight: 500;
+		font-family: 'Crimson Pro', serif;
+		font-size: 18px;
+		transition: all 0.5s;
+	}
+
+	.location-contacts-numemail:hover {
+		color: var(--light-color);
+	}
+
+	.location-map {
+		margin-top: 50px;
+		width: 180px;
+		height: 230px;
+		border: 4px solid var(--light-brand-color);
+	}
+}
+
 @media (min-width: 320px) and (max-width: 426px) {
 	.section-wines-contact {
 		margin-top: 100px;
